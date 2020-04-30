@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Maryland - Trailing 14-day Net New Hospitalizations</title>
+<style>
+	.line {
+		stroke: grey;
+		fill:none;
+		stroke-width: 1;
+	}
+	
+	.axis path,
+	.axis line {
+		fill: none;
+		stroke: black;
+		shape-rendering: crispEdges;
+        stroke-width: 1;
+	}
+	
+	.axis text {
+		font-size: 10px;
+		font-family: sans-serif;
+	}
+	
+	.text-label {
+		font-size: 10px;
+		font-family: sans-serif;
+	}
+	
+</style>
+
+<body>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+
+<script>
+	var height = 700;
+	var width = 1200;
+	var margin = {top: 20, right:20, bottom: 50, left: 40};
+    //var datasrc = "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/MASTER_CaseTracker_3/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=ReportDate+as+report_date%2C+total_hospitalized%2C+hospitalizedDelta+as+hospitalized_delta&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=ReportDate+DESC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=14&sqlFormat=none&f=pjson&token=";
+	var datasrc = "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/MASTER_CaseTracker_3/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=ReportDate+as+report_date%2C+%28hospitalizeddelta+-+releaseddelta%29+as+net_new&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=ReportDate+DESC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=14&sqlFormat=none&f=pjson&token=";
+	// formatters for axis and labels
+	var currencyFormat = d3.format("$0.2f");
+	var decimalFormat = d3.format("0.2f");
+    var integerFormat = d3.format("0");
+	
+	var svg = d3.select("body")
+		.append("svg")
+		.attr("width", width + margin.left + margin.right)
+		.attr("height", height + margin.top + margin.bottom)
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	
+	svg.append("g")
+		.attr("class", "y axis");
+		
+	svg.append("g")
+		.attr("class", "x axis");
+		
+	var xScale = d3.scale.ordinal()
+		.rangeRoundBands([margin.left, width], .1);
+		
+	var yScale = d3.scale.linear()
+		.range([height, 0]);
+	
+	var xAxis = d3.svg.axis()
+		.scale(xScale)
+		.orient("bottom");
+		
+	var yAxis = d3.svg.axis()
+		.scale(yScale)
+		.orient("left");
+	
+	d3.json(datasrc, function(data) {
+        data = data.features.reverse();
+		// extract the x labels for the axis and scale domain
+		var xLabels = data.map(function (d) { return formatDate(new Date(d.attributes.report_date)); })
+		xScale.domain(xLabels);
+        console.log(xScale);
+		yScale.domain([0, Math.round(d3.max(data, function(d) { return d.attributes.net_new; }))]);
+		var line = d3.svg.line()
+			.x(function(d) { return xScale(formatDate(new Date(d.attributes.report_date))); })
+			.y(function(d) { return yScale(d.attributes.net_new); });
+		
+		svg.append("path")
+			.datum(data)
+			.attr("class","line")
+			.attr("d", line);
+		
+		svg.select(".x.axis")
+			.attr("transform", "translate(0," + (height) + ")")
+			.call(xAxis.tickValues(xLabels.filter(function(d, i) { 
+				//if (i % 12 == 0)
+					return d;
+				})))
+			.selectAll("text")
+			.style("text-anchor","end")
+			.attr("transform", function(d) {
+				return "rotate(-45)";
+			});
+		
+		svg.select(".y.axis")
+			.attr("transform", "translate(" + (margin.left) + ",0)")
+			.call(yAxis.tickFormat(decimalFormat));
+			
+		// chart title
+		svg.append("text")
+			.attr("x", (width + (margin.left + margin.right) )/ 2)
+			.attr("y", 0 + margin.top)
+			.attr("text-anchor", "middle")
+			.style("font-size", "16px")
+			.style("font-family", "sans-serif")
+			.text("Trailing 14-day Net New Hospitalizations");
+		
+		// x axis label
+		//svg.append("text")
+		//	.attr("x", (width + (margin.left + margin.right) )/ 2)
+		//	.attr("y", height + margin.bottom)
+		//	.attr("class", "text-label")
+		//	.attr("text-anchor", "middle")
+		//	.text("Date");
+		
+		// get the x and y values for least squares
+		var xSeries = d3.range(1, xLabels.length + 1);
+		var ySeries = data.map(function(d) { return d.attributes.net_new; });
+		
+		var leastSquaresCoeff = leastSquares(xSeries, ySeries);
+		
+		// apply the reults of the least squares regression
+		var x1 = xLabels[0];
+		var y1 = leastSquaresCoeff[0] + leastSquaresCoeff[1];
+		var x2 = xLabels[xLabels.length - 1];
+		var y2 = leastSquaresCoeff[0] * xSeries.length + leastSquaresCoeff[1];
+		var trendData = [[x1,y1,x2,y2]];
+        //var m = (data[data.length - 1].attributes.report_date - data[0].attributes.report_date)/(x2 - x1);
+		console.log(trendData);
+		var trendline = svg.selectAll(".trendline")
+			.data(trendData);
+			
+		trendline.enter()
+			.append("line")
+			.attr("class", "trendline")
+			.attr("x1", function(d) { return xScale(d[0]); })
+			.attr("y1", function(d) { return yScale(d[1]); })
+			.attr("x2", function(d) { return xScale(d[2]); })
+			.attr("y2", function(d) { return yScale(d[3]); })
+			.attr("stroke", "black")
+			.attr("stroke-width", 3);
+		
+		// display equation on the chart
+		//svg.append("text")
+		//	.text("slope: " + m)
+		//	.attr("class", "text-label")
+		//	.attr("x", function(d) {return xScale(x2) - 60;})
+		//	.attr("y", function(d) {return yScale(y2) - 30;});
+		
+		// display r-square on the chart
+		//svg.append("text")
+		//	.text("r-sq: " + decimalFormat(leastSquaresCoeff[2]))
+		//	.attr("class", "text-label")
+		//	.attr("x", function(d) {return xScale(x2) - 60;})
+		//	.attr("y", function(d) {return yScale(y2) - 10;});
+
+	});
+	
+	// returns slope, intercept and r-square of the line
+	function leastSquares(xSeries, ySeries) {
+		var reduceSumFunc = function(prev, cur) { return prev + cur; };
+		
+		var xBar = xSeries.reduce(reduceSumFunc) * 1.0 / xSeries.length;
+		var yBar = ySeries.reduce(reduceSumFunc) * 1.0 / ySeries.length;
+
+		var ssXX = xSeries.map(function(d) { return Math.pow(d - xBar, 2); })
+			.reduce(reduceSumFunc);
+		
+		var ssYY = ySeries.map(function(d) { return Math.pow(d - yBar, 2); })
+			.reduce(reduceSumFunc);
+			
+		var ssXY = xSeries.map(function(d, i) { return (d - xBar) * (ySeries[i] - yBar); })
+			.reduce(reduceSumFunc);
+			
+		var slope = ssXY / ssXX;
+		var intercept = yBar - (xBar * slope);
+		var rSquare = Math.pow(ssXY, 2) / (ssXX * ssYY);
+		
+		return [slope, intercept, rSquare];
+	}
+
+    function formatDate(dt){
+        const months = ["JAN", "FEB", "MAR","APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+        let formatted_date = dt.getDate() + "-" + months[dt.getMonth()] + "-" + dt.getFullYear();
+        return formatted_date;
+    }
+	
+</script>
+</body>
