@@ -11,7 +11,7 @@
 	.axis path,
 	.axis line {
 		fill: none;
-		stroke: black;
+		stroke: white;
 		shape-rendering: crispEdges;
         stroke-width: 1;
 	}
@@ -19,16 +19,18 @@
 	.axis text {
 		font-size: 10px;
 		font-family: sans-serif;
+		fill: white;
 	}
 	
 	.text-label {
 		font-size: 10px;
 		font-family: sans-serif;
+		fill: white;
 	}
 	
 </style>
 
-<body>
+<body style="background-color: black;">
 <script src="https://d3js.org/d3.v3.min.js"></script>
 
 <script>
@@ -111,6 +113,7 @@
 			.attr("text-anchor", "middle")
 			.style("font-size", "16px")
 			.style("font-family", "sans-serif")
+			.style("fill", "white")
 			.text("Trailing 14-day Daily Current Hospitalizations");
 		
 		// x axis label
@@ -145,7 +148,7 @@
 			.attr("y1", function(d) { return yScale(d[1]); })
 			.attr("x2", function(d) { return xScale(d[2]); })
 			.attr("y2", function(d) { return yScale(d[3]); })
-			.attr("stroke", "black")
+			.attr("stroke", "white")
 			.attr("stroke-width", 3);
 		
 		// display equation on the chart
@@ -194,5 +197,5 @@
     }
 	
 </script>
-<p style="margin-left: 50px;font-family: sans-serif;">Data source: <a href="https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/MASTERCaseTracker/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=ReportDate+as+report_date%2C+bedsTotal+as+net_new&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=ReportDate+DESC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=14&sqlFormat=none&f=pjson&token=">Custom query</a>, State of Maryland ArcGIS feature service</p>
+<p style="margin-left: 50px;font-family: sans-serif; color: white;">Data source: <a href="https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/MASTERCaseTracker/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=ReportDate+as+report_date%2C+bedsTotal+as+net_new&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=ReportDate+DESC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=14&sqlFormat=none&f=pjson&token=">Custom query</a>, State of Maryland ArcGIS feature service</p>
 </body>
