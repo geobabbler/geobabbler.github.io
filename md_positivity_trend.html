@@ -80,7 +80,7 @@
 		console.log(xLabels);
 		xScale.domain(xLabels);
         console.log(xScale);
-		yScale.domain([(Math.round(d3.min(data, function(d) { return d.attributes.net_new; }))) - 0.50, Math.round(d3.max(data, function(d) { return d.attributes.net_new; }))]);
+		yScale.domain([(Math.round(d3.min(data, function(d) { return d.attributes.net_new; }))) - 1.00, Math.round(d3.max(data, function(d) { return d.attributes.net_new; }))]);
 		var line = d3.svg.line()
 			.x(function(d) { return xScale(formatDate(new Date(d.attributes.report_date))); })
 			.y(function(d) { return yScale(d.attributes.net_new); });
