@@ -1,0 +1,6528 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-31T15:46:08Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1185439",
+        "addr:city": "Reston",
+        "addr:housenumber": "1400",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Lake Fairfax Drive",
+        "ele": "95",
+        "gnis:feature_id": "1469098",
+        "leisure": "park",
+        "name": "Lake Fairfax Park",
+        "operator": "Fairfax County Park Authority",
+        "operator:type": "public",
+        "operator:wikidata": "Q5430163",
+        "operator:wikipedia": "en:Fairfax County Park Authority",
+        "ref:fcpa": "169",
+        "type": "multipolygon",
+        "wikidata": "Q6475818",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3211461,
+          38.960819
+        ]
+      },
+      "id": "relation/1185439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1199915",
+        "leisure": "sports_centre",
+        "name": "Fox Mill Woods Pool",
+        "sport": "swimming",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3593579,
+          38.9182773
+        ]
+      },
+      "id": "relation/1199915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1202122",
+        "leisure": "park",
+        "name": "Sunrise Valley Park",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3876423,
+          38.9495795
+        ]
+      },
+      "id": "relation/1202122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1957706",
+        "addr:city": "Reston",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "leisure": "park",
+        "name": "Little Difficult Run Stream Valley Park",
+        "operator": "Fairfax County Park Authority",
+        "operator:type": "public",
+        "operator:wikidata": "Q5430163",
+        "operator:wikipedia": "en:Fairfax County Park Authority",
+        "ref:fcpa": "189",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.346804,
+          38.9041758
+        ]
+      },
+      "id": "relation/1957706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1991154",
+        "leisure": "park",
+        "linear": "yes",
+        "name": "Washington and Old Dominion Railroad Regional Park",
+        "natural": "grassland",
+        "operator": "Northern Virginia Regional Park Authority",
+        "type": "multipolygon",
+        "website": "http://www.nvrpa.org/park/w_od_railroad",
+        "wikidata": "Q2550381",
+        "wikipedia": "en:Washington and Old Dominion Railroad Regional Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3367839,
+          38.9755222
+        ]
+      },
+      "id": "relation/1991154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1995767",
+        "ele": "118",
+        "gnis:feature_id": "1954274",
+        "leisure": "park",
+        "name": "Stuart Road Park",
+        "operator": "Fairfax County Park Authority",
+        "operator:type": "public",
+        "operator:wikidata": "Q5430163",
+        "ref:fcpa": "303",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3625931,
+          38.9787476
+        ]
+      },
+      "id": "relation/1995767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1999902",
+        "addr:street": "Clubhouse Road",
+        "leisure": "golf_course",
+        "name": "Hidden Creek Country Club",
+        "type": "multipolygon",
+        "website": "https://www.hiddencreekcc.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3425854,
+          38.9583449
+        ]
+      },
+      "id": "relation/1999902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1999904",
+        "description": "Herndon’s 58-acre nature park provides passive recreational opportunities, and features a native plant garden with over 100 different species of plants, flowers and wildlife. Open dawn to dusk for hiking, birdwatching, nature study and picnicking. Park in",
+        "ele": "100",
+        "gnis:feature_id": "2071721",
+        "leisure": "park",
+        "name": "Runnymede Park",
+        "operator": "Town of Herndon",
+        "type": "multipolygon",
+        "wikidata": "Q49554851",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3688637,
+          38.9761945
+        ]
+      },
+      "id": "relation/1999904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1999912",
+        "leisure": "park",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3165132,
+          38.9397325
+        ]
+      },
+      "id": "relation/1999912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2067026",
+        "ele": "97",
+        "gnis:feature_id": "2071720",
+        "leisure": "park",
+        "name": "Sugarland Run Stream Valley Park",
+        "operator": "Fairfax County Park Authority",
+        "operator:type": "public",
+        "operator:wikidata": "Q5430163",
+        "operator:wikipedia": "en:Fairfax County Park Authority",
+        "ref:fcpa": "304",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3672363,
+          38.9912538
+        ]
+      },
+      "id": "relation/2067026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9644660",
+        "leisure": "golf_course",
+        "name": "Reston National Golf Course",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3482954,
+          38.9421621
+        ]
+      },
+      "id": "relation/9644660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17473961",
+        "leisure": "swimming_pool",
+        "name": "Rattlesnake River",
+        "sport": "swimming",
+        "swimming_pool": "lazy_river",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3173501,
+          38.9674076
+        ]
+      },
+      "id": "relation/17473961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44622489",
+        "addr:city": "Reston",
+        "addr:housenumber": "1800",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Michael Faraday Court",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Skatequest Ice Rinks",
+        "sport": "ice_skating",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3309862,
+          38.9494884
+        ]
+      },
+      "id": "way/44622489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/69547097",
+        "leisure": "park",
+        "name": "Reston Town Square Park",
+        "source": "Reston Town Center Map",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3610543,
+          38.9584863
+        ]
+      },
+      "id": "way/69547097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/69830446",
+        "addr:city": "Reston",
+        "addr:housenumber": "1845",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Fountain Drive",
+        "amenity": "restaurant",
+        "building": "retail",
+        "internet_access": "no",
+        "name": "Not Your Average Joe's",
+        "opening_hours": "Su-We 11:00-22:00, Th-Sa 11:00-23:00",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "website": "https://www.notyouraveragejoes.com/locations/virginia/reston/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3549864,
+          38.9605244
+        ]
+      },
+      "id": "way/69830446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/70430697",
+        "addr:city": "Reston",
+        "addr:housenumber": "12192",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "american;breakfast",
+        "delivery": "no",
+        "name": "First Watch",
+        "note": "(703) 464-7909",
+        "official_name": "First Watch The Daytime Cafe",
+        "takeaway": "yes",
+        "website": "https://www.carrabbas.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.367475,
+          38.9553102
+        ]
+      },
+      "id": "way/70430697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/76714768",
+        "landuse": "recreation_ground",
+        "leisure": "stadium",
+        "name": "Patricia Bergen Stadium",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3412609,
+          38.9330709
+        ]
+      },
+      "id": "way/76714768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78337671",
+        "ele": "110",
+        "gnis:feature_id": "1466832;1778781",
+        "leisure": "park",
+        "note": "renamed from Fox Mill District Park in 2006",
+        "old_name": "Fox Mill District Park",
+        "operator": "Fairfax County Park Authority",
+        "operator:type": "public",
+        "operator:wikidata": "Q5430163",
+        "operator:wikipedia": "en:Fairfax County Park Authority",
+        "ref:fcpa": "97",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3514596,
+          38.9198926
+        ]
+      },
+      "id": "way/78337671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78343475",
+        "leisure": "water_park",
+        "name": "Water Mine Family Swimmin' Hole",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3175581,
+          38.9674771
+        ]
+      },
+      "id": "way/78343475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79080256",
+        "addr:city": "Reston",
+        "addr:housenumber": "11300",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Baron Cameron Avenue",
+        "leisure": "park",
+        "name": "Baron Cameron Park",
+        "operator": "Fairfax County Park Authority",
+        "operator:type": "public",
+        "operator:wikidata": "Q5430163",
+        "operator:wikipedia": "en:Fairfax County Park Authority",
+        "ref:fcpa": "14",
+        "wikidata": "Q49473679",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3368627,
+          38.9761105
+        ]
+      },
+      "id": "way/79080256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79085966",
+        "leisure": "park",
+        "name": "Soapstone South Recreation Area",
+        "operator": "Reston Association",
+        "source": "Fairfax County Free GIS data",
+        "website": "http://districts.reston.org/index.php?option=com_content&view=article&id=51",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3492494,
+          38.9137324
+        ]
+      },
+      "id": "way/79085966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79086009",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3433284,
+          38.9709656
+        ]
+      },
+      "id": "way/79086009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79086022",
+        "designation": "Lake Anne Park",
+        "leisure": "park",
+        "name": "Lake Anne Park",
+        "source": "Fairfax County Free GIS data",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3375828,
+          38.9695805
+        ]
+      },
+      "id": "way/79086022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79086083",
+        "leisure": "park",
+        "name": "Running Cedar Park",
+        "opening_hours": "dawn-dusk",
+        "operator": "Reston Association",
+        "website": "http://districts.reston.org/index.php?option=com_content&view=article&id=74",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.344501,
+          38.9180157
+        ]
+      },
+      "id": "way/79086083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79086109",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3486898,
+          38.9738143
+        ]
+      },
+      "id": "way/79086109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79086121",
+        "leisure": "park",
+        "name": "Old Trail Tot Lot",
+        "operator": "Reston Association",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3479232,
+          38.9283624
+        ]
+      },
+      "id": "way/79086121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79086134",
+        "leisure": "park",
+        "name": "Hook Road Rec Area",
+        "source": "Fairfax County Free GIS data",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3416199,
+          38.9625835
+        ]
+      },
+      "id": "way/79086134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79086266",
+        "designation": "Wainwright Park",
+        "leisure": "park",
+        "source": "Fairfax County Free GIS data",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3504479,
+          38.9648005
+        ]
+      },
+      "id": "way/79086266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79086277",
+        "addr:city": "Reston",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "South Lakes Drive",
+        "leisure": "park",
+        "name": "Shadowood Recreation Area",
+        "source": "Fairfax County Free GIS data",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3500796,
+          38.9349512
+        ]
+      },
+      "id": "way/79086277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79086290",
+        "leisure": "park",
+        "source": "Fairfax County Free GIS data",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3507748,
+          38.9596085
+        ]
+      },
+      "id": "way/79086290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79086328",
+        "leisure": "park",
+        "name": "Golf Course Island Rec Area",
+        "source": "Fairfax County Free GIS data",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3398834,
+          38.9578951
+        ]
+      },
+      "id": "way/79086328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79087024",
+        "addr:city": "Reston",
+        "addr:housenumber": "2310",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Colts Neck Road",
+        "amenity": "community_centre",
+        "building": "public",
+        "name": "Reston Community Center",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+1 703-476-4500",
+        "source": "Observation, web search",
+        "website": "https://www.restoncommunitycenter.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3604487,
+          38.9365227
+        ]
+      },
+      "id": "way/79087024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79087477",
+        "addr:city": "Reston",
+        "addr:housenumber": "2270",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Hunters Woods Plaza",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "retail",
+        "cuisine": "burger",
+        "disused:amenity": "fast_food",
+        "drive_through": "yes",
+        "name": "McDonald's",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/va/reston/2270-hunters-woods-plaza/41206.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3627456,
+          38.9372865
+        ]
+      },
+      "id": "way/79087477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79150928",
+        "leisure": "sports_centre",
+        "name": "Indoor Tennis (private)",
+        "sport": "tennis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3460625,
+          38.9626636
+        ]
+      },
+      "id": "way/79150928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79158353",
+        "addr:housenumber": "1821",
+        "addr:postcode": "20190",
+        "addr:street": "Wiehle Avenue",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pupatella",
+        "opening_hours": "Fr-Sa 11:30-22:00; Su-Th 11:30-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-571-441-1148",
+        "source": "bing",
+        "website": "https://www.pupatella.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3349503,
+          38.9507433
+        ]
+      },
+      "id": "way/79158353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79158354",
+        "addr:city": "Reston",
+        "addr:housenumber": "11257",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Roger Bacon Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr 07:00-24:00; Sa 07:00-01:30; Su 07:00-01:00",
+        "phone": "+1 703-437-5622",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/reston/11257-roger-bacon-dr.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3343681,
+          38.9510556
+        ]
+      },
+      "id": "way/79158354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79158355",
+        "addr:city": "Reston",
+        "addr:housenumber": "11265",
+        "addr:postcode": "20190-5201",
+        "addr:state": "VA",
+        "addr:street": "Roger Bacon Drive",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "05:00-24:00",
+        "phone": "+1 703-437-1826",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/3388.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3348587,
+          38.9511165
+        ]
+      },
+      "id": "way/79158355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79226609",
+        "addr:city": "Reston",
+        "addr:housenumber": "12196",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "brand": "YMCA",
+        "brand:wikidata": "Q157169",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "YMCA",
+        "phone": "+1 703-742-8800",
+        "sport": "athletics",
+        "website": "https://www.ymcadc.org/branch.cfm?bid=09",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3681779,
+          38.9560546
+        ]
+      },
+      "id": "way/79226609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79245916",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3328383,
+          38.9579035
+        ]
+      },
+      "id": "way/79245916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79289648",
+        "barrier": "fence",
+        "leisure": "park",
+        "name": "Dog Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.335194,
+          38.9768773
+        ]
+      },
+      "id": "way/79289648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79294094",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3389011,
+          38.9583438
+        ]
+      },
+      "id": "way/79294094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79294145",
+        "leisure": "swimming_pool",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3493923,
+          38.9346541
+        ]
+      },
+      "id": "way/79294145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79296082",
+        "covered": "no",
+        "designation": "Reston Association Park",
+        "leisure": "swimming_pool",
+        "name": "Ridge Heights Pool",
+        "source": "Bing",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3410754,
+          38.9369066
+        ]
+      },
+      "id": "way/79296082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79296506",
+        "boat": "no",
+        "designation": "Reston Association Park",
+        "leisure": "swimming_pool",
+        "name": "Lake Thoreau Pool",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3329903,
+          38.9416569
+        ]
+      },
+      "id": "way/79296506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79296695",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "name": "Lake Audubon Pool",
+        "operator": "Reston Association",
+        "source": "bing",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3262069,
+          38.9335498
+        ]
+      },
+      "id": "way/79296695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79298450",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "name": "Hunter Woods Pool",
+        "operator": "Reston Association",
+        "source": "bing",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3679274,
+          38.9308999
+        ]
+      },
+      "id": "way/79298450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79304242",
+        "addr:city": "Reston",
+        "addr:housenumber": "12160",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "amenity": "fast_food",
+        "branch": "Village Commons",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "contact:email": "01045@chick-fil-a.com",
+        "contact:instagram": "https://www.instagram.com/cfavillagecommons/",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 05:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 571-203-1234",
+        "ref": "01045",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/va/village-commons",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3665592,
+          38.9546233
+        ]
+      },
+      "id": "way/79304242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79428874",
+        "leisure": "swimming_pool",
+        "name": "Lake Newport Pool",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.348698,
+          38.9758237
+        ]
+      },
+      "id": "way/79428874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79430192",
+        "leisure": "swimming_pool",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3410648,
+          38.9838501
+        ]
+      },
+      "id": "way/79430192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79446730",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3271063,
+          38.9698319
+        ]
+      },
+      "id": "way/79446730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79450029",
+        "boat": "no",
+        "designation": "private swimming pool",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3454637,
+          38.9615788
+        ]
+      },
+      "id": "way/79450029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79455273",
+        "addr:city": "Reston",
+        "addr:housenumber": "11951",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "Killingsworth Avenue",
+        "amenity": "restaurant",
+        "brand": "Silver Diner",
+        "brand:wikidata": "Q7516006",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "american;diner",
+        "name": "Silver Diner",
+        "opening_hours": "Mo-Su 07:00-24:00",
+        "phone": "+1 703-742-0801",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "website": "https://www.silverdiner.com/locations/reston",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3586624,
+          38.9666605
+        ]
+      },
+      "id": "way/79455273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79577645",
+        "leisure": "swimming_pool",
+        "name": "Glade Pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3447412,
+          38.9266885
+        ]
+      },
+      "id": "way/79577645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79613659",
+        "addr:city": "Reston",
+        "addr:housenumber": "11925",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Bowman Towne Drive",
+        "amenity": "library",
+        "building": "yes",
+        "ele": "121",
+        "gnis:feature_id": "1491378",
+        "name": "Reston Regional Library",
+        "opening_hours": "Mo-Th 10:00-21:00, Fr 10:00-18:00, Sa 10:00-17:00, Su 13:00-17:00",
+        "operator": "Fairfax County",
+        "operator:type": "public",
+        "phone": "+1 703-689-2700",
+        "source": "USGS Geonames",
+        "website": "https://www.fairfaxcounty.gov/library/branches/reston-regional",
+        "wikidata": "Q69766698",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3585171,
+          38.9614351
+        ]
+      },
+      "id": "way/79613659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79614275",
+        "leisure": "park",
+        "name": "Hyatt Park",
+        "source": "Reston Town Center Map",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3551226,
+          38.9580361
+        ]
+      },
+      "id": "way/79614275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79614407",
+        "leisure": "park",
+        "name": "Presidents Park",
+        "source": "Reston Town Center Map",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3549906,
+          38.9594139
+        ]
+      },
+      "id": "way/79614407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79623356",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3270115,
+          38.9697032
+        ]
+      },
+      "id": "way/79623356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79654322",
+        "leisure": "park",
+        "name": "Reston Town Green Park",
+        "operator": "Fairfax County Park Authority",
+        "operator:type": "public",
+        "operator:wikidata": "Q5430163",
+        "ref:fcpa": "355",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3570567,
+          38.9641194
+        ]
+      },
+      "id": "way/79654322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79667200",
+        "access": "private",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "motor_vehicle": "no",
+        "name": "Autumnwood Pool",
+        "operator": "Reston Association",
+        "source": "bing",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3583267,
+          38.9756185
+        ]
+      },
+      "id": "way/79667200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79667724",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3593418,
+          38.9182167
+        ]
+      },
+      "id": "way/79667724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79667844",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3584484,
+          38.9295097
+        ]
+      },
+      "id": "way/79667844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/80037322",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3254453,
+          38.9655238
+        ]
+      },
+      "id": "way/80037322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/80156483",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3353445,
+          38.9225483
+        ]
+      },
+      "id": "way/80156483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/80271588",
+        "access": "private",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3586337,
+          38.9379149
+        ]
+      },
+      "id": "way/80271588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/80338838",
+        "leisure": "park",
+        "natural": "wood",
+        "source": "Yahoo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3656245,
+          38.9328837
+        ]
+      },
+      "id": "way/80338838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/80339515",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3565397,
+          38.926119
+        ]
+      },
+      "id": "way/80339515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/80346479",
+        "access": "permissive",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3542364,
+          38.9502388
+        ]
+      },
+      "id": "way/80346479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/80475191",
+        "leisure": "park",
+        "name": "Stratton Woods Park",
+        "operator": "Fairfax County Park Authority",
+        "operator:type": "public",
+        "operator:wikidata": "Q5430163",
+        "ref:fcpa": "302",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3860532,
+          38.9424602
+        ]
+      },
+      "id": "way/80475191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124127779",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3173616,
+          38.9674663
+        ]
+      },
+      "id": "way/124127779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/147942004",
+        "leisure": "park",
+        "name": "Reston North Park",
+        "operator": "Fairfax County Park Authority",
+        "operator:type": "public",
+        "operator:wikidata": "Q5430163",
+        "ref:fcpa": "269",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3538755,
+          38.9702532
+        ]
+      },
+      "id": "way/147942004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/147942009",
+        "addr:city": "Reston",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "South Lakes Drive",
+        "ele": "133",
+        "gnis:feature_id": "1778818",
+        "leisure": "park",
+        "name": "South Lakes Drive Park",
+        "operator": "Fairfax County Park Authority",
+        "operator:type": "public",
+        "operator:wikidata": "Q5430163",
+        "operator:wikipedia": "en:Fairfax County Park Authority",
+        "ref:fcpa": "291",
+        "wikidata": "Q49563387",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3563803,
+          38.9391169
+        ]
+      },
+      "id": "way/147942009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/147961564",
+        "leisure": "park",
+        "name": "Soapstone North Recreation Area",
+        "operator": "Reston Association",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3471716,
+          38.9307258
+        ]
+      },
+      "id": "way/147961564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/174010828",
+        "leisure": "park",
+        "name": "Autumnwood Park",
+        "operator": "Reston Association",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3567331,
+          38.9765065
+        ]
+      },
+      "id": "way/174010828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/174010833",
+        "landuse": "recreation_ground",
+        "leisure": "sports_centre",
+        "name": "Lake Newport Soccer Field",
+        "operator": "Reston Association",
+        "sport": "soccer",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.350954,
+          38.9765345
+        ]
+      },
+      "id": "way/174010833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/174021377",
+        "access": "private",
+        "designation": "private swimming pool",
+        "leisure": "swimming_pool",
+        "location": "outdoor",
+        "source": "bing",
+        "swimming_pool": "inground",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3591387,
+          38.9699123
+        ]
+      },
+      "id": "way/174021377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/174021668",
+        "boat": "no",
+        "designation": "private swimming pool",
+        "leisure": "swimming_pool",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3610349,
+          38.9667679
+        ]
+      },
+      "id": "way/174021668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/174869001",
+        "layer": "1",
+        "leisure": "swimming_pool",
+        "source": "Bing",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3494972,
+          38.934831
+        ]
+      },
+      "id": "way/174869001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/175010844",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "name": "Ridge Heights Pool",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.340791,
+          38.9369471
+        ]
+      },
+      "id": "way/175010844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/182625608",
+        "access": "private",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "location": "outdoor",
+        "sport": "swimming",
+        "swimming_pool": "wading",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3623809,
+          38.9582925
+        ]
+      },
+      "id": "way/182625608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/182625609",
+        "access": "private",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3623161,
+          38.9594328
+        ]
+      },
+      "id": "way/182625609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251211641",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3128437,
+          38.9381429
+        ]
+      },
+      "id": "way/251211641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/367988261",
+        "access": "permissive",
+        "addr:state": "VA",
+        "amenity": "library",
+        "ele": "124",
+        "gnis:feature_id": "2045373",
+        "name": "USGS Clarence King Library",
+        "operator:type": "government",
+        "operator:wikidata": "Q193755",
+        "ref:isil": "US-digs",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3678181,
+          38.9472493
+        ]
+      },
+      "id": "node/367988261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/381990765",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3676375,
+          38.9441848
+        ]
+      },
+      "id": "way/381990765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/381996121",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3390202,
+          38.915094
+        ]
+      },
+      "id": "way/381996121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/385027745",
+        "addr:city": "Reston",
+        "addr:housenumber": "1757",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Business Center Drive",
+        "brand": "Life Time",
+        "brand:wikidata": "Q6545004",
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "fitness_centre",
+        "name": "Life Time",
+        "phone": "+1 571-512-3500",
+        "website": "https://www.lifetime.life/life-time-locations/va-reston.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3284966,
+          38.9531554
+        ]
+      },
+      "id": "way/385027745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/385611121",
+        "addr:city": "Reston",
+        "addr:housename": "North Point Village Center",
+        "addr:housenumber": "1494",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "North Point Village Center",
+        "amenity": "fast_food",
+        "branch": "North Point Village",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "retail",
+        "building:levels": "1",
+        "contact:email": "03473@chick-fil-a.com",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "phone": "+1 703-481-1725",
+        "ref": "03473",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/va/north-point-village",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3488642,
+          38.9786317
+        ]
+      },
+      "id": "way/385611121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/385612004",
+        "addr:city": "Reston",
+        "addr:housenumber": "11880",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Spectrum Center",
+        "amenity": "restaurant",
+        "branch": "Mexican Grill",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-22:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3546724,
+          38.9643097
+        ]
+      },
+      "id": "way/385612004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/466105377",
+        "leisure": "park",
+        "name": "Villaridge Community Open Space",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.327219,
+          38.9388912
+        ]
+      },
+      "id": "way/466105377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/484252029",
+        "addr:city": "Reston",
+        "addr:housenumber": "12130 A101",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "amenity": "restaurant",
+        "branch": "Winery & Restaurant",
+        "brand": "Cooper's Hawk",
+        "brand:wikidata": "Q17511079",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cooper's Hawk",
+        "official_name": "Cooper's Hawk Winery & Restaurants",
+        "shop": "wine",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.365466,
+          38.9544106
+        ]
+      },
+      "id": "way/484252029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/493520797",
+        "leisure": "park",
+        "name": "Cedar Cove Playground",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.33555,
+          38.9312208
+        ]
+      },
+      "id": "way/493520797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/495894272",
+        "addr:city": "Reston",
+        "addr:housenumber": "11948",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Ted's Bulletin",
+        "opening_hours": "Mo-Th 07:00-22:00; Fr-Sa 07:00-13:00; Su 07:00-21:30",
+        "phone": "+1-703-956-9510",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.tedsbulletin.com/locations/reston/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3584551,
+          38.9588362
+        ]
+      },
+      "id": "node/495894272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/504640290",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.359376,
+          38.918523
+        ]
+      },
+      "id": "way/504640290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/507426952",
+        "access": "yes",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "operator": "Reston Association",
+        "source": "Bing",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3427859,
+          38.9672634
+        ]
+      },
+      "id": "way/507426952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/507857155",
+        "area": "yes",
+        "name": "Pyramid",
+        "source": "knowledge",
+        "tourism": "artwork",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3410939,
+          38.9689709
+        ]
+      },
+      "id": "way/507857155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/507857160",
+        "area": "yes",
+        "name": "sculpture garden",
+        "source": "local_knowledge",
+        "tourism": "artwork",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3409492,
+          38.9675977
+        ]
+      },
+      "id": "way/507857160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/507859965",
+        "access": "yes",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "operator": "Reston Association",
+        "source": "Bing",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3429034,
+          38.9670006
+        ]
+      },
+      "id": "way/507859965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/507859966",
+        "leisure": "park",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3435676,
+          38.9678253
+        ]
+      },
+      "id": "way/507859966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530444972",
+        "addr:city": "Reston",
+        "addr:housenumber": "1904",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Reston Metro Plaza",
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:levels": "1",
+        "cocktails": "yes",
+        "cuisine": "american;donut",
+        "delivery": "no",
+        "kids_area": "no",
+        "name": "Founding Farmers Reston Station",
+        "opening_hours": "Mo-We 07:00-22:00; Th 07:00-23:00; Fr 07:00-00:00; Sa 09:00-00:00; Su 09:00-22:00",
+        "phone": "+1 703-988-7333",
+        "reservation": "recommended",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.wearefoundingfarmers.com/locations/reston/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3382772,
+          38.9489664
+        ]
+      },
+      "id": "way/530444972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/532995513",
+        "addr:city": "Reston",
+        "addr:housenumber": "12130",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "amenity": "cafe",
+        "building": "yes",
+        "description": "Bakery, Bistro, and Cafe",
+        "name": "Roggenart",
+        "takeaway": "yes",
+        "website": "https://roggenart.com/locations/reston/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.365419,
+          38.9545565
+        ]
+      },
+      "id": "way/532995513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/533663021",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3654689,
+          38.9586056
+        ]
+      },
+      "id": "way/533663021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/533663140",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3617739,
+          38.9614763
+        ]
+      },
+      "id": "way/533663140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/535286839",
+        "addr:city": "Reston",
+        "addr:housenumber": "12100",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "addr:unit": "R12",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Honeygrow",
+        "opening_hours": "10:30-22:00",
+        "phone": "+1 571-313-8356",
+        "website": "https://www.honeygrow.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3634055,
+          38.9548536
+        ]
+      },
+      "id": "way/535286839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/541661463",
+        "addr:city": "Reston",
+        "addr:housenumber": "11750",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Sunrise Valley Drive",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "Harvest + Vine",
+        "phone": "703-234-3550",
+        "source": "EsriWorldImagery;local knowledge",
+        "website": "https://www.marriott.com/en-us/hotels/wasow-the-westin-reston-heights/dining/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3521045,
+          38.9502385
+        ]
+      },
+      "id": "way/541661463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543013959",
+        "addr:city": "Reston",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Pinecrest Road",
+        "alt_name": "Southgate Center",
+        "leisure": "park",
+        "name": "Southgate Community Center",
+        "operator": "Reston Association",
+        "source": "Fairfax County Free GIS data",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3658587,
+          38.9417031
+        ]
+      },
+      "id": "way/543013959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543019343",
+        "access": "yes",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "source": "EsriWorldImagery",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3529693,
+          38.9442141
+        ]
+      },
+      "id": "way/543019343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543019345",
+        "access": "yes",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "source": "EsriWorldImagery",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3532541,
+          38.9442303
+        ]
+      },
+      "id": "way/543019345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543212150",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "name": "Dogwood Pool",
+        "source": "EsriWorldImagery",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3682426,
+          38.9366869
+        ]
+      },
+      "id": "way/543212150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543214233",
+        "leisure": "park",
+        "source": "Fairfax County Free GIS data",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.368573,
+          38.9365629
+        ]
+      },
+      "id": "way/543214233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543220701",
+        "access": "private",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.358836,
+          38.9378795
+        ]
+      },
+      "id": "way/543220701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/544287958",
+        "access": "yes",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "operator": "Reston Association",
+        "source": "Bing",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3426483,
+          38.9671198
+        ]
+      },
+      "id": "way/544287958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/600840978",
+        "addr:city": "Reston",
+        "addr:housenumber": "12100",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "capacity": "100",
+        "cuisine": "indian",
+        "description": "Bombay Velvet, the first fine dining Indian restaurant from Northern Virginia chef and restaurateur Rajiv Chopra, is getting ready for its Reston debut in January 2019. Design by Shivani Chopra & Andy Dan pulls elements from 1970s Bombay and 1930s America",
+        "name": "Bombay Velvet",
+        "opening_hours": "Mo-Fr 10:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 703-956-9359",
+        "website": "https://www.bombayvelvet.us/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3634062,
+          38.9549333
+        ]
+      },
+      "id": "way/600840978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/603105012",
+        "addr:city": "Reston",
+        "addr:housenumber": "12100",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "addr:unit": "107",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "cuisine": "thai",
+        "name": "Tiki Thai",
+        "website": "https://www.tikithai.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3634071,
+          38.9550761
+        ]
+      },
+      "id": "way/603105012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/622107378",
+        "leisure": "park",
+        "name": "Bordeaux Area",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3681914,
+          38.9348054
+        ]
+      },
+      "id": "way/622107378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/624099543",
+        "addr:city": "Reston",
+        "addr:housenumber": "1639",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Washington Plaza North",
+        "name": "Reston Museum",
+        "operator": "Reston Historic Trust",
+        "source": "Reston Association (RA)",
+        "tourism": "museum",
+        "website": "https://www.restonmuseum.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3402514,
+          38.9685414
+        ]
+      },
+      "id": "node/624099543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626331913",
+        "addr:city": "Reston",
+        "addr:housenumber": "1701",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "Bracknell Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-01:30; Fr-Sa 06:30-02:00; Su 06:30-01:30",
+        "phone": "+1 703-437-7292",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/va/reston/1701-bracknell-drive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.356469,
+          38.967526
+        ]
+      },
+      "id": "node/626331913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626331914",
+        "addr:city": "Reston",
+        "addr:housenumber": "11804",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Stevenage Rd",
+        "amenity": "restaurant",
+        "name": "Santini's New York Style Deli",
+        "opening_hours": "Mo-Sa 09:00-22:00; Su 09:00-21:00",
+        "website": "https://mysantinis.com/locations/reston-va/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3560109,
+          38.967722
+        ]
+      },
+      "id": "node/626331914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626331928",
+        "addr:city": "Reston",
+        "addr:housenumber": "1625",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Washington Plaza North",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "name": "Cafe Montmartre",
+        "website": "https://cafemontmartre.com/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3402873,
+          38.9689372
+        ]
+      },
+      "id": "node/626331928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/660050411",
+        "addr:city": "Reston",
+        "addr:housenumber": "12100",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "BGR",
+        "opening_hours": "Su-Th 11:00-21:00, Fr-Sa 11:00-22:00",
+        "phone": "+1 571-313-1021",
+        "website": "https://www.bgrtheburgerjoint.com/locations-menus/reston-va/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3641075,
+          38.954471
+        ]
+      },
+      "id": "way/660050411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/693347419",
+        "leisure": "park",
+        "name": "Hunter Woods Park",
+        "source": "Fairfax County Free GIS data",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3672832,
+          38.9326224
+        ]
+      },
+      "id": "way/693347419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/697339656",
+        "leisure": "park",
+        "name": "Brown's Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3411683,
+          38.972706
+        ]
+      },
+      "id": "way/697339656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/712133600",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3413342,
+          38.9301382
+        ]
+      },
+      "id": "way/712133600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/761320920",
+        "addr:city": "Reston",
+        "addr:housenumber": "11960",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Democracy Drive",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "PassionFish",
+        "opening_hours": "Mo-Th 11:30-22:30; Fr 11:30-23:30; Sa 4:00-23:30; Su 16:00-21:00",
+        "phone": "+1-703-230-3474",
+        "website": "http://www.passionfishreston.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3599772,
+          38.958037
+        ]
+      },
+      "id": "node/761320920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775381123",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "lit": "no",
+        "location": "outdoor",
+        "swimming_pool": "kids",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3591563,
+          38.9696963
+        ]
+      },
+      "id": "way/775381123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775595586",
+        "access": "private",
+        "leisure": "dog_park",
+        "operator": "Kettler Inc.",
+        "operator:type": "private",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3597874,
+          38.9694592
+        ]
+      },
+      "id": "way/775595586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/832367321",
+        "addr:city": "Reston",
+        "addr:housenumber": "11951",
+        "addr:postcode": "20190-5640",
+        "addr:state": "VA",
+        "addr:street": "Freedom Drive",
+        "amenity": "cafe",
+        "atm": "no",
+        "branch": "One Freedom Square",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "number": "7605-7515",
+        "official_name": "Starbucks Coffee",
+        "operator": "Starbucks Coffee",
+        "phone": "+1 571-203-0601",
+        "ref": "12002",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/12002/one-freedom-square-11951-freedom-drive-reston-va-201905640-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3590716,
+          38.958847
+        ]
+      },
+      "id": "node/832367321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/832367334",
+        "addr:city": "Reston",
+        "addr:housenumber": "11916",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Su-Fr 11:00-22:00; Sa 11:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3574433,
+          38.9588364
+        ]
+      },
+      "id": "node/832367334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/832367351",
+        "addr:city": "Reston",
+        "addr:housenumber": "11927",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Democracy Drive",
+        "amenity": "restaurant",
+        "contact:facebook": "JacksonsGAR",
+        "cuisine": "american",
+        "name": "Jackson's",
+        "opening_hours": "Mo 11:00-22:00; Tu-Th 11:00-23:00; Fr-Sa 11:00-24:00; Su 10:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 703-437-0800",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://jacksonsva.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3587967,
+          38.9577858
+        ]
+      },
+      "id": "node/832367351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/834983236",
+        "addr:city": "Reston",
+        "addr:housenumber": "1833",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Fountain Drive",
+        "amenity": "cafe",
+        "cuisine": "french",
+        "name": "La Madeleine",
+        "opening_hours": "07:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3565474,
+          38.9607308
+        ]
+      },
+      "id": "node/834983236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/886581647",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3293029,
+          38.9527288
+        ]
+      },
+      "id": "way/886581647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/886581648",
+        "leisure": "sports_centre",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3293344,
+          38.9527101
+        ]
+      },
+      "id": "way/886581648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/921195224",
+        "addr:city": "Reston",
+        "addr:housenumber": "11850",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Sunrise Valley Drive",
+        "alt_name": "Popeye's Louisiana Kitchen",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "old_name": "Popeye's Chicken & Biscuits",
+        "opening_hours": "Mo-Th 10:30-22:00, Fr-Sa 10:30-23:00, Su 10:30-22:00",
+        "phone": "+1 703-264-3308",
+        "takeaway": "yes",
+        "website": "https://locations.popeyes.com/va/reston/4542/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3575068,
+          38.9478754
+        ]
+      },
+      "id": "node/921195224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/922361144",
+        "addr:city": "Reston",
+        "addr:housenumber": "11674",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Plaza America Drive",
+        "amenity": "fast_food",
+        "branch": "Plaza America",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "cuisine": "burger",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "opening_hours": "11:00-21:30",
+        "phone": "+1 703-707-1695",
+        "takeaway": "yes",
+        "website": "https://restaurants.fiveguys.com/11674-plaza-america-drive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3491828,
+          38.9522124
+        ]
+      },
+      "id": "node/922361144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/924248156",
+        "addr:city": "Reston",
+        "addr:housenumber": "12184",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Glade Drive",
+        "amenity": "restaurant",
+        "capacity": "100",
+        "cuisine": "japanese",
+        "name": "Ariake Japanese",
+        "phone": "+1 703-391-9006",
+        "website": "https://ariakerestaurant.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3641018,
+          38.9352024
+        ]
+      },
+      "id": "node/924248156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/928093854",
+        "addr:city": "Reston",
+        "addr:housenumber": "2304",
+        "addr:postcode": "20191-2811",
+        "addr:state": "VA",
+        "addr:street": "Hunters",
+        "amenity": "cafe",
+        "branch": "Safeway Reston 1570",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "number": "74203-35039",
+        "official_name": "Starbucks Coffee",
+        "phone": "+1 703-716-4193",
+        "ref": "16161",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/16161/safeway-reston-1570-2304-hunters-woods-plaza-reston-va-201912811-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3626762,
+          38.9357538
+        ]
+      },
+      "id": "node/928093854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/928094840",
+        "addr:city": "Reston",
+        "addr:housenumber": "11610",
+        "addr:postcode": "20190-4700",
+        "addr:state": "VA",
+        "addr:street": "Plaza America Drive",
+        "addr:unit": "A",
+        "amenity": "cafe",
+        "branch": "Plaza America",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "number": "7703-46279",
+        "official_name": "Starbucks Coffee",
+        "phone": "+1 703-481-3485",
+        "ref": "13451",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/13451/plaza-america-11610-a-plaza-america-dr-reston-va-201904700-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3474561,
+          38.9520118
+        ]
+      },
+      "id": "node/928094840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/928097545",
+        "addr:city": "Reston",
+        "addr:housename": "North Point Village Center",
+        "addr:housenumber": "1444",
+        "addr:postcode": "20194-1190",
+        "addr:state": "VA",
+        "addr:street": "North Point Village Center",
+        "amenity": "cafe",
+        "branch": "Reston",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "number": "710-1117",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Su 07:00-14:00",
+        "phone": "+1 703-787-9341",
+        "ref": "11313",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/11313/reston-1444-north-point-village-center-reston-va-20194119"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3496211,
+          38.9797334
+        ]
+      },
+      "id": "node/928097545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/932105613",
+        "addr:city": "Reston",
+        "addr:housenumber": "12152",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "phone": "+1 703-435-0888",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/va/reston/12152-sunset-hills-rd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3662298,
+          38.9548071
+        ]
+      },
+      "id": "node/932105613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/932105947",
+        "amenity": "fast_food",
+        "branch": "Sandwiches",
+        "brand": "Potbelly",
+        "brand:wikidata": "Q7234777",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Potbelly",
+        "official_name": "Potbelly Sandwich Works",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3660492,
+          38.9548053
+        ]
+      },
+      "id": "node/932105947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/980377897",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3909777,
+          38.9456402
+        ]
+      },
+      "id": "way/980377897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/987868502",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "location": "outdoor",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3400705,
+          38.9502252
+        ]
+      },
+      "id": "way/987868502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1131959668",
+        "access": "permit",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3623514,
+          38.9640268
+        ]
+      },
+      "id": "way/1131959668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1147936054",
+        "area": "yes",
+        "artwork_type": "installation",
+        "tourism": "artwork",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3601509,
+          38.9535544
+        ]
+      },
+      "id": "way/1147936054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1196073244",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3331132,
+          38.9547522
+        ]
+      },
+      "id": "way/1196073244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1210035207",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3837803,
+          38.9453102
+        ]
+      },
+      "id": "way/1210035207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1213850364",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "location": "outdoor",
+        "swimming_pool": "inground",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3165978,
+          38.954099
+        ]
+      },
+      "id": "way/1213850364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1214742881",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3217286,
+          38.9542067
+        ]
+      },
+      "id": "way/1214742881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1214742913",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3229952,
+          38.9541
+        ]
+      },
+      "id": "way/1214742913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1214787178",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3244428,
+          38.9532586
+        ]
+      },
+      "id": "way/1214787178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1214815867",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3568402,
+          38.9481826
+        ]
+      },
+      "id": "way/1214815867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1223111621",
+        "layer": "2",
+        "leisure": "sports_centre",
+        "sport": "swimming",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3582794,
+          38.9488416
+        ]
+      },
+      "id": "way/1223111621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1223111622",
+        "layer": "2",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3587286,
+          38.9491248
+        ]
+      },
+      "id": "way/1223111622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1223111623",
+        "layer": "2",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3584479,
+          38.9495333
+        ]
+      },
+      "id": "way/1223111623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1223111625",
+        "layer": "2",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3582875,
+          38.9488438
+        ]
+      },
+      "id": "way/1223111625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1228355625",
+        "leisure": "park",
+        "name": "Hunters Woods Community Park",
+        "operator": "Reston Association",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3589271,
+          38.936152
+        ]
+      },
+      "id": "way/1228355625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1316033364",
+        "leisure": "dog_park",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3324175,
+          38.9461641
+        ]
+      },
+      "id": "way/1316033364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1316237230",
+        "building": "civic",
+        "museum": "history",
+        "tourism": "museum",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3579008,
+          38.9543612
+        ]
+      },
+      "id": "way/1316237230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1316257878",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3503852,
+          38.9529791
+        ]
+      },
+      "id": "way/1316257878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1316400853",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.353578,
+          38.9536818
+        ]
+      },
+      "id": "way/1316400853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1316400875",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3519755,
+          38.9540058
+        ]
+      },
+      "id": "way/1316400875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1316466419",
+        "access": "private",
+        "check_date": "2024-09-18",
+        "leisure": "swimming_pool",
+        "location": "roof",
+        "swimming_pool": "wading",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3334852,
+          38.9464952
+        ]
+      },
+      "id": "way/1316466419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1316474060",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "location": "roof",
+        "swimming_pool": "wading",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3609513,
+          38.9577274
+        ]
+      },
+      "id": "way/1316474060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1324351437",
+        "barrier": "fence",
+        "leisure": "dog_park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3324004,
+          38.9461505
+        ]
+      },
+      "id": "way/1324351437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1386356937",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3341118,
+          38.9481714
+        ]
+      },
+      "id": "way/1386356937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1417970086",
+        "access": "customers",
+        "leisure": "swimming_pool",
+        "location": "roof",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3374362,
+          38.9499972
+        ]
+      },
+      "id": "way/1417970086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1418196993",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "location": "roof",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3395348,
+          38.9492038
+        ]
+      },
+      "id": "way/1418196993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1418197776",
+        "amenity": "restaurant",
+        "leisure": "outdoor_seating",
+        "lit": "yes",
+        "name": "Founding Farmers",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3384247,
+          38.9488537
+        ]
+      },
+      "id": "way/1418197776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1418197777",
+        "amenity": "restaurant",
+        "leisure": "outdoor_seating",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3388263,
+          38.9487951
+        ]
+      },
+      "id": "way/1418197777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1433637619",
+        "access": "yes",
+        "leisure": "dog_park",
+        "name": "Canis Major Dog Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3626219,
+          38.9484019
+        ]
+      },
+      "id": "way/1433637619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1443100918",
+        "access": "permissive",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3354356,
+          38.9472947
+        ]
+      },
+      "id": "way/1443100918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445423827",
+        "leisure": "park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.0889337,
+          49.5563225
+        ]
+      },
+      "id": "way/1445423827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1613052656",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Bento House",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:30-22:00; Su 11:00-21:00",
+        "phone": "+1 571-325-2108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3551074,
+          38.9672206
+        ]
+      },
+      "id": "node/1613052656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1732774580",
+        "addr:city": "Reston",
+        "addr:housenumber": "11130",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "South Lakes Drive",
+        "addr:unit": "M",
+        "amenity": "restaurant",
+        "branch": "Reston",
+        "cuisine": "italian;mediterranean",
+        "name": "Cafesano",
+        "opening_hours": "11:00-21:00",
+        "phone": "+1-703-391-2100",
+        "website": "https://cafesano.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3306113,
+          38.9390936
+        ]
+      },
+      "id": "node/1732774580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1733403124",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Flippin Pizza",
+        "website": "https://www.flippinpizza.com/reston/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3304678,
+          38.9395552
+        ]
+      },
+      "id": "node/1733403124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1776193047",
+        "addr:city": "Reston",
+        "addr:housenumber": "1826",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Library Street",
+        "amenity": "fast_food",
+        "atm": "no",
+        "brand": "&pizza",
+        "brand:wikidata": "Q21189222",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "&pizza",
+        "outdoor_seating": "no",
+        "phone": "+1-571-624-2447",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://andpizza.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3587451,
+          38.9580684
+        ]
+      },
+      "id": "node/1776193047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1776703231",
+        "addr:city": "Reston",
+        "addr:housenumber": "11919",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Freedom Drive",
+        "amenity": "fast_food",
+        "brand": "Potbelly",
+        "brand:wikidata": "Q7234777",
+        "cuisine": "sandwich",
+        "name": "Potbelly",
+        "official_name": "Potbelly Sandwich Works",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.357013,
+          38.959306
+        ]
+      },
+      "id": "node/1776703231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1777382316",
+        "addr:city": "Reston",
+        "addr:housenumber": "11913",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Freedom Drive",
+        "alt_name": "Chipotle Mexican Grill",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 703-435-5795",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/va/reston/11913-freedom-dr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3567586,
+          38.9593785
+        ]
+      },
+      "id": "node/1777382316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1778438878",
+        "addr:city": "Reston",
+        "addr:housenumber": "1827",
+        "addr:state": "VA",
+        "addr:street": "Library Street",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "delivery": "no",
+        "internet_access": "no",
+        "name": "Uncle Julio's",
+        "opening_hours": "Mo-Th 11:00-22:30; Fr 11:00-23:30; Sa 10:00-23:30; Su 10:00-22:30",
+        "outdoor_seating": "yes",
+        "phone": "+1 703-904-0703",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://unclejulios.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3585035,
+          38.9579962
+        ]
+      },
+      "id": "node/1778438878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1840717152",
+        "amenity": "theatre",
+        "designation": "USGS",
+        "name": "Dallas L Peck Memorial Auditorium",
+        "source": "http://www.usgs.gov/visitors/selfmap.asp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3678558,
+          38.9476208
+        ]
+      },
+      "id": "node/1840717152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1843417945",
+        "name": "1963 tower",
+        "source": "knowledge",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3405079,
+          38.9684946
+        ]
+      },
+      "id": "node/1843417945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1843417982",
+        "name": "1964 tower",
+        "source": "local_knowledge",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3409105,
+          38.9674491
+        ]
+      },
+      "id": "node/1843417982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1843417987",
+        "addr:city": "Reston",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Washington Plaza North",
+        "amenity": "community_centre",
+        "name": "Reston Community Center at Lake Anne",
+        "source": "local_knowledge",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3409221,
+          38.9691786
+        ]
+      },
+      "id": "node/1843417987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1843418038",
+        "name": "ART studio/gallery",
+        "source": "local_knowledge",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3409727,
+          38.9677709
+        ]
+      },
+      "id": "node/1843418038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2885524580",
+        "addr:city": "Reston",
+        "addr:housenumber": "11170",
+        "addr:postcode": "20191-4327",
+        "addr:state": "VA",
+        "addr:street": "South Lakes Drive, South Lakes Village",
+        "amenity": "cafe",
+        "branch": "South Lakes",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "number": "7730-7514",
+        "official_name": "Starbucks Coffee",
+        "phone": "+1 703-390-9213",
+        "ref": "16139",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/16139/south-lakes-11170-south-lakes-dr-reston-va-201914327-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3301623,
+          38.9383223
+        ]
+      },
+      "id": "node/2885524580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2885524581",
+        "addr:city": "Reston",
+        "addr:housenumber": "11160",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "S. Lakes Drive",
+        "addr:unit": "D",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Tu 08:00-22:00; We-Fr 09:00-22:00; Sa-Su 09:00-21:00",
+        "phone": "+1 703-476-6622",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/va/reston/11160-s-lakes-dr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3306048,
+          38.9387474
+        ]
+      },
+      "id": "node/2885524581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2885524582",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Lakeside Asia Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3304348,
+          38.9392649
+        ]
+      },
+      "id": "node/2885524582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3161189833",
+        "abandoned": "yes",
+        "leisure": "park",
+        "name": "Linpro Office Park",
+        "note": "2014 - Green space with park benches between a number of office buildings and across the road from Reston Metro Station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3356538,
+          38.9486882
+        ]
+      },
+      "id": "node/3161189833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3373393507",
+        "addr:city": "Reston",
+        "addr:housenumber": "2254",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Hunters Woods Plaza",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "branch": "Reston",
+        "brand": "Ledo Pizza",
+        "brand:wikidata": "Q6512734",
+        "capacity": "50",
+        "cuisine": "pizza;pasta",
+        "name": "Ledo Pizza",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr,Sa 11:00-22:00; Su 12:00-21:00",
+        "phone": "+1 703-758-9800",
+        "source": "Observation, website",
+        "website": "https://ledopizza.com/store/reston/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3616541,
+          38.9366213
+        ]
+      },
+      "id": "node/3373393507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3373393508",
+        "addr:city": "Reston",
+        "addr:housenumber": "2260",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Hunters Woods Plaza",
+        "addr:unit": "D",
+        "amenity": "restaurant",
+        "capacity": "50",
+        "cuisine": "wings",
+        "name": "Buffalo Wing Factory & Pub",
+        "opening_hours": "Su-We 11:00-22:00; Th-Sa 11:00-23:00",
+        "phone": "+1 703-390-9015",
+        "website": "https://www.buffalowingfactory.com/locations/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3616836,
+          38.9367674
+        ]
+      },
+      "id": "node/3373393508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3376724828",
+        "addr:city": "Reston",
+        "addr:housenumber": "2280",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Hunters Woods Plaza",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "check_date:opening_hours": "2025-09-29",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "no",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Sa 05:30-21:00; Su 06:00-20:00",
+        "phone": "+1 703-860-9252",
+        "ref": "349165",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/va/reston/2280-hunters-woods-plz/349165"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3630545,
+          38.9369271
+        ]
+      },
+      "id": "node/3376724828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3378443530",
+        "addr:city": "Reston",
+        "addr:housenumber": "2310",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Colts Neck Road",
+        "amenity": "theatre",
+        "name": "Reston Community Players at RCC Center Stage",
+        "phone": "+1 703-476-4500 ext. 3",
+        "website": "https://restonplayers.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3608085,
+          38.9366436
+        ]
+      },
+      "id": "node/3378443530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3520104133",
+        "addr:city": "Reston",
+        "addr:housenumber": "11915",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Democracy Drive",
+        "amenity": "restaurant",
+        "brand": "Fogo de Chão",
+        "brand:wikidata": "Q5464133",
+        "cuisine": "brazilian;steak_house",
+        "name": "Fogo de Chão",
+        "phone": "+1-571-531-9777",
+        "website": "https://fogodechao.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3584107,
+          38.95777
+        ]
+      },
+      "id": "node/3520104133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3559946646",
+        "addr:city": "Reston",
+        "addr:housenumber": "1888",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Explorer Street",
+        "amenity": "pub",
+        "name": "Crafthouse",
+        "opening_hours": "Su-We 11:00-00:00; Th-Sa 11:00-02:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-571-926-9931",
+        "smoking": "no",
+        "website": "https://crafthouseusa.com/reston-va-crafthouse/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3605982,
+          38.9578692
+        ]
+      },
+      "id": "node/3559946646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3559946647",
+        "addr:city": "Reston",
+        "addr:housenumber": "12021",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Town Square Street",
+        "amenity": "restaurant",
+        "brand": "Bartaco",
+        "brand:wikidata": "Q112871922",
+        "cuisine": "tacos",
+        "name": "Bartaco",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1-703-787-8226",
+        "website": "https://bartaco.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3605859,
+          38.9580547
+        ]
+      },
+      "id": "node/3559946647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3559946648",
+        "addr:city": "Reston",
+        "addr:housenumber": "12023",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Town Square Street",
+        "amenity": "restaurant",
+        "name": "Barcelona Wine Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3607943,
+          38.9580722
+        ]
+      },
+      "id": "node/3559946648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3811317895",
+        "addr:city": "Reston",
+        "addr:housenumber": "2254",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Hunters Woods Plaza",
+        "addr:unit": "J",
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "check_date:opening_hours": "2025-09-10",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Jersey Mike's Subs",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+1 571-313-8910",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes",
+        "website": "https://www.jerseymikes.com/6051/reston-va"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3615912,
+          38.9362711
+        ]
+      },
+      "id": "node/3811317895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3882839347",
+        "addr:city": "Reston",
+        "addr:housename": "North Point Village Center",
+        "addr:housenumber": "1400",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "North Point Village Center",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "email": "northpoint@glorydaysgrill.com",
+        "name": "Glory Days Grill",
+        "opening_hours": "Su-Th 11:00-23:00; Fr-Sa 11:00-23:59",
+        "phone": "+1 571-926-9700",
+        "website": "https://www.glorydaysgrill.com/locations/virginia/reston-at-north-point-village-center/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3484542,
+          38.9800683
+        ]
+      },
+      "id": "node/3882839347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3882856438",
+        "addr:city": "Reston",
+        "addr:housename": "North Point Village Center",
+        "addr:housenumber": "1446",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "North Point Village Center",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 10:30-22:00; Su 11:00-21:30",
+        "outdoor_seating": "yes",
+        "phone": "+1 703-742-8837",
+        "website": "https://locations.baskinrobbins.com/va/reston/1446-reston-pkwy-360278-br"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3497119,
+          38.9796904
+        ]
+      },
+      "id": "node/3882856438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3882863328",
+        "addr:city": "Reston",
+        "addr:housename": "North Point Village Center",
+        "addr:housenumber": "1474",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "North Point Village Center",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Subway",
+        "opening_hours": "Tu-Su 09:00-21:00; Mo 09:00-18:00",
+        "phone": "+1 571-313-1732",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/va/reston/1474-north-point-plaza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3503051,
+          38.9785068
+        ]
+      },
+      "id": "node/3882863328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3882863329",
+        "addr:city": "Reston",
+        "addr:housename": "North Point Village Center",
+        "addr:housenumber": "1472",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "North Point Village Center",
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog",
+        "opening_hours": "Mo-Sa 12:00-21:00; Su 11:00-21:00",
+        "phone": "+1 571-926-9204",
+        "website": "https://www.sweetfrog.com/stores/35168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3503147,
+          38.9785837
+        ]
+      },
+      "id": "node/3882863329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3882863330",
+        "addr:city": "Reston",
+        "addr:housename": "North Point Village Center",
+        "addr:housenumber": "1470",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "North Point Village Center",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "California Tortilla",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 11:00-21:00",
+        "phone": "+1 571-313-1325",
+        "website": "https://californiatortilla.com/location/northpoint-reston/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3503217,
+          38.9786577
+        ]
+      },
+      "id": "node/3882863330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3882864213",
+        "addr:city": "Reston",
+        "addr:housename": "North Point Village Center",
+        "addr:housenumber": "1428",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "North Point Village Center",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Gregorio's Trattoria",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 703-689-4894",
+        "website": "https://gregoriostrattoria.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3492917,
+          38.9798759
+        ]
+      },
+      "id": "node/3882864213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3889439032",
+        "addr:city": "Reston",
+        "addr:housename": "North Point Village Center",
+        "addr:housenumber": "1480",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "North Point Village Center",
+        "alt_name": "HoneyBaked Ham",
+        "amenity": "fast_food",
+        "brand": "Honey Baked Ham",
+        "brand:wikidata": "Q5893363",
+        "cuisine": "american",
+        "name": "Honey Baked Ham",
+        "official_name": "The Honey Baked Ham Company",
+        "opening_hours": "Mo-Fr 09:30-18:30; Sa 10:00-18:00; Su closed",
+        "operator": "The Honey Baked Ham Company",
+        "phone": "+1 703-733-3860",
+        "takeaway": "yes",
+        "website": "https://www.honeybaked.com/stores/8505"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3502776,
+          38.9782787
+        ]
+      },
+      "id": "node/3889439032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3889439033",
+        "addr:city": "Reston",
+        "addr:housename": "North Point Village Center",
+        "addr:housenumber": "1484",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "North Point Village Center",
+        "alt_name": "Bobby's Bagel Cafe Reston",
+        "amenity": "restaurant",
+        "cuisine": "bagel",
+        "name": "Bobby's Bagel Cafe",
+        "old_name": "Bobby's Bagels",
+        "opening_hours": "Mo-Su 07:00-14:00",
+        "phone": "+1 571-926-9088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3503275,
+          38.978188
+        ]
+      },
+      "id": "node/3889439033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3889737729",
+        "addr:city": "Reston",
+        "addr:housenumber": "11648",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Plaza America Drive",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3486574,
+          38.9515239
+        ]
+      },
+      "id": "node/3889737729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3889743685",
+        "addr:city": "Reston",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Plaza America Drive",
+        "brand": "Gold's Gym",
+        "brand:wikidata": "Q1536234",
+        "leisure": "fitness_centre",
+        "name": "Gold's Gym",
+        "sport": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3492934,
+          38.9523637
+        ]
+      },
+      "id": "node/3889743685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3889743689",
+        "addr:city": "Reston",
+        "addr:housenumber": "11690",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Plaza America Drive",
+        "amenity": "restaurant",
+        "cuisine": "latin_american",
+        "name": "Maizal Street Food",
+        "website": "https://maizalgrill.com/#/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3492767,
+          38.9528241
+        ]
+      },
+      "id": "node/3889743689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3889748309",
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "brand:wikidata": "Q7845817",
+        "cuisine": "juice",
+        "name": "Tropical Smoothie Cafe",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3492136,
+          38.9527079
+        ]
+      },
+      "id": "node/3889748309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3889748310",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 07:00-17:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3512944,
+          38.9527423
+        ]
+      },
+      "id": "node/3889748310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3889748316",
+        "alt_name": "Melting Pot",
+        "amenity": "restaurant",
+        "brand": "The Melting Pot",
+        "brand:wikidata": "Q7750948",
+        "cuisine": "fondue",
+        "name": "The Melting Pot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3500907,
+          38.9533793
+        ]
+      },
+      "id": "node/3889748316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3889748317",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Nikko Sushi & Hibachi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3502322,
+          38.9533215
+        ]
+      },
+      "id": "node/3889748317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3902107575",
+        "addr:city": "Reston",
+        "addr:housenumber": "11790",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Baron Cameron Avenue",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Senor Ramon Taqueria",
+        "phone": "+1 571-313-0374",
+        "website": "https://www.senorramon.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3545361,
+          38.9673499
+        ]
+      },
+      "id": "node/3902107575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3902107580",
+        "addr:city": "Reston",
+        "addr:housenumber": "1675",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "Reston Parkway",
+        "addr:unit": "M",
+        "amenity": "fast_food",
+        "brand": "Pizza Boli's",
+        "brand:wikidata": "Q105882930",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Pizza Boli's",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-24:00; Su 11:00-23:00",
+        "phone": "+1 703-435-5555",
+        "takeaway": "yes",
+        "website": "https://www.pizzabolis.com/locations/reston/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3555003,
+          38.9680628
+        ]
+      },
+      "id": "node/3902107580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3902107581",
+        "addr:city": "Reston",
+        "addr:housenumber": "1675",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "Reston Parkway",
+        "addr:unit": "L",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Mandarin",
+        "opening_hours": "Mo 10:00-21:00; Tu-Th 11:00-21:00; Fr 11:00-21:30; Sa 11:30-21:30; Su 11:30-21:00",
+        "phone": "+1 703-318-0900",
+        "website": "https://www.mandarinva.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.355459,
+          38.9681027
+        ]
+      },
+      "id": "node/3902107581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3902107584",
+        "addr:city": "Reston",
+        "addr:housenumber": "1675",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "Reston Parkway",
+        "addr:unit": "D",
+        "amenity": "restaurant",
+        "cuisine": "chicken;peruvian",
+        "delivery": "yes",
+        "name": "Pollo Peru",
+        "opening_hours": "Mo-Sa 10:30-21:00; Su 11:00-20:00",
+        "phone": "+1 571-296-7502",
+        "takeaway": "yes",
+        "website": "https://www.polloperu.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3552149,
+          38.9683467
+        ]
+      },
+      "id": "node/3902107584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4372452397",
+        "addr:city": "Reston",
+        "addr:housenumber": "1825",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Fountain Drive",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Baron Cameron & Reston Parkway",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Fr 05:00-16:00, Sa 06:00-16:00, Su 06:00-15:00",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/va/reston/1825-fountain-drive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3565166,
+          38.9609559
+        ]
+      },
+      "id": "node/4372452397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4565176799",
+        "amenity": "restaurant",
+        "name": "Red's Table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3308904,
+          38.9389139
+        ]
+      },
+      "id": "node/4565176799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829288521",
+        "addr:housenumber": "12018",
+        "addr:street": "Sunrise Valley Drive",
+        "amenity": "cafe",
+        "name": "Leaves and Greens",
+        "opening_hours": "Mo-Su 09:00-15:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3621881,
+          38.9484126
+        ]
+      },
+      "id": "node/4829288521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4969361273",
+        "addr:city": "Reston",
+        "addr:housenumber": "11424",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Washington Plaza West",
+        "amenity": "pub",
+        "email": "info@lakeannebrewhouse.com",
+        "name": "Lake Anne Brew House",
+        "old_name": "Calvert Deli",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr 16:00-23:00; Sa 10:00-23:00; Su 12:00-17:00",
+        "opening_hours:happy_hour": "Th 1600-1800",
+        "operator": "Melissa and Jason Romano",
+        "phone": "+1 571-758-2739",
+        "source": "knowledge",
+        "website": "https://lakeannebrewhouse.com/visit/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3411707,
+          38.9682812
+        ]
+      },
+      "id": "node/4969361273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4971411656",
+        "addr:city": "Reston",
+        "addr:housenumber": "1612",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Washington Plaza West",
+        "addr:unit": "N",
+        "amenity": "cafe",
+        "name": "Lake Anne Coffee House & Wine Bar",
+        "phone": "+1 703-481-9766",
+        "source": "Bing",
+        "website": "https://lakeannecoffeehouse.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3412769,
+          38.9688324
+        ]
+      },
+      "id": "node/4971411656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4971437920",
+        "source": "Bing",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3431216,
+          38.9675562
+        ]
+      },
+      "id": "node/4971437920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5241619862",
+        "addr:city": "Reston",
+        "addr:housenumber": "12120",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "amenity": "restaurant",
+        "branch": "Peri Peri",
+        "brand": "Nando's",
+        "brand:wikidata": "Q3472954",
+        "cuisine": "chicken;portuguese",
+        "name": "Nando's",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1 571-665-5806",
+        "start_date": "2017-11",
+        "website": "https://www.nandosperiperi.com/find/reston/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3651534,
+          38.9546887
+        ]
+      },
+      "id": "node/5241619862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5241619863",
+        "addr:city": "Reston",
+        "addr:housenumber": "12120",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "amenity": "restaurant",
+        "brand": "Mezeh",
+        "brand:wikidata": "Q130470118",
+        "cuisine": "mediterranean",
+        "name": "Mezeh Mediterranean Grill",
+        "website": "https://www.mezeh.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3650595,
+          38.9547304
+        ]
+      },
+      "id": "node/5241619863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5249633071",
+        "addr:city": "Reston",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Pinecrest Road",
+        "alt_name": "Southgate Center",
+        "amenity": "community_centre",
+        "name": "Southgate Community Center",
+        "source": "EsriWorldImagery;knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.36572,
+          38.9418049
+        ]
+      },
+      "id": "node/5249633071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5255849691",
+        "addr:city": "Reston",
+        "addr:housenumber": "12011",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Sunset Hills Road",
+        "addr:unit": "Suite 130",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop;american;sandwich;breakfast;salad;burger",
+        "level": "0",
+        "name": "The Commons Fooderie",
+        "opening_hours": "Mo-F 7:00-4:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.tcfooderiereston.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3572964,
+          38.9541926
+        ]
+      },
+      "id": "node/5255849691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5273053225",
+        "addr:city": "Reston",
+        "addr:housenumber": "1617",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Washington Plaza North",
+        "amenity": "bar",
+        "email": "info@kalypsossportstavern.com",
+        "name": "Kalypso's Sports Tavern",
+        "old_name": "Il Cigno Ristorante",
+        "opening_hours": "Su-Sa 11:00-02:00",
+        "opening_hours:happy_hour": "Mo-Fr 11:00-19:00",
+        "phone": "+1 703-707-0660",
+        "website": "https://www.kalypsossportstavern.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3407018,
+          38.9688565
+        ]
+      },
+      "id": "node/5273053225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5353088935",
+        "addr:city": "Reston",
+        "addr:housenumber": "2316",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Hunters Woods Plaza",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Pista House Indian Cuisine",
+        "outdoor_seating": "no",
+        "phone": "+1 703-429-1931",
+        "website": "pistahousevirginia.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3615315,
+          38.9359305
+        ]
+      },
+      "id": "node/5353088935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5353088951",
+        "addr:city": "Reston",
+        "addr:housenumber": "2280",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Hunters Woods Plaza",
+        "amenity": "cafe",
+        "brand": "Kung Fu Tea",
+        "brand:wikidata": "Q66023886",
+        "cuisine": "bubble_tea",
+        "name": "Kung Fu Tea",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "phone": "+1 703-391-1591",
+        "shop": "tea",
+        "takeaway": "yes",
+        "website": "http://kfteausa.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3632595,
+          38.9367609
+        ]
+      },
+      "id": "node/5353088951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5353088952",
+        "addr:city": "Reston",
+        "addr:housenumber": "2254",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Hunters Woods Plaza",
+        "addr:unit": "G",
+        "amenity": "restaurant",
+        "check_date:opening_hours": "2025-09-10",
+        "cuisine": "peruvian",
+        "name": "King Pollo of Reston",
+        "opening_hours:signed": "no",
+        "phone": "+1 703-429-1790",
+        "website": "https://kingpollo.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3616301,
+          38.9363864
+        ]
+      },
+      "id": "node/5353088952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5353088953",
+        "addr:city": "Reston",
+        "addr:housenumber": "2254",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Hunters Woods Plaza",
+        "addr:unit": "D",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Hunan Cafe",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 11:30-22:00",
+        "phone": "+1 703-391-9813",
+        "website": "http://hunancafereston.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3616569,
+          38.9365188
+        ]
+      },
+      "id": "node/5353088953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5970935002",
+        "addr:city": "Reston",
+        "addr:housenumber": "11160",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "South Lakes Drive",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "opening_hours": "Mo-Su 10:45-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1 571-392-7746",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/va/reston/11160-s-lakes-dr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3304145,
+          38.938596
+        ]
+      },
+      "id": "node/5970935002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6052814347",
+        "addr:city": "Reston",
+        "addr:housenumber": "1815",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Fountain Drive",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "delivery": "no",
+        "drive_through": "no",
+        "name": "CAVA",
+        "opening_hours": "Mo-Su 10:45-22:00",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://order.cava.com/stores/65/menu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.356482,
+          38.9613709
+        ]
+      },
+      "id": "node/6052814347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6106653176",
+        "amenity": "restaurant",
+        "name": "Olive Express"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3624994,
+          38.9519002
+        ]
+      },
+      "id": "node/6106653176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6173255291",
+        "addr:housenumber": "11939",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Democracy Drive",
+        "amenity": "fast_food",
+        "cuisine": "seafood",
+        "name": "Mason's Famous Lobster Rolls",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1 571-926-8610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3595657,
+          38.9577919
+        ]
+      },
+      "id": "node/6173255291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6223267949",
+        "addr:city": "Reston",
+        "addr:housenumber": "1862",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Explorer Street",
+        "amenity": "restaurant",
+        "cuisine": "turkish",
+        "name": "Taste of Istanbul",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 12:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-571-313-1047",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://tasteofistanbulcatering.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3605248,
+          38.9592817
+        ]
+      },
+      "id": "node/6223267949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6223320799",
+        "addr:city": "Reston",
+        "addr:housenumber": "1835",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Fountain Drive",
+        "alt_name": "Robeks Juice",
+        "amenity": "fast_food",
+        "brand": "Robeks",
+        "brand:wikidata": "Q17029777",
+        "cuisine": "juice",
+        "delivery": "no",
+        "name": "Robeks",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3557244,
+          38.9605972
+        ]
+      },
+      "id": "node/6223320799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6299382877",
+        "addr:city": "Reston",
+        "addr:housenumber": "11942",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Democracy Drive",
+        "amenity": "ice_cream",
+        "name": "Pitango Gelato Reston Town Center",
+        "phone": "+1-703-606-9906"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3591585,
+          38.9582604
+        ]
+      },
+      "id": "node/6299382877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6502229144",
+        "addr:city": "Reston",
+        "addr:floor": "P1",
+        "addr:housenumber": "1908",
+        "addr:postcode": "20190-5237",
+        "addr:state": "VA",
+        "addr:street": "Reston Metro Plaza",
+        "amenity": "cafe",
+        "branch": "Reston Station LS Metro",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "check_date": "2025-07-28",
+        "check_date:opening_hours": "2025-07-28",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Th 06:00-19:30; Sa,Su 06:30-18:00; Fr 06:00-20:30",
+        "outdoor_seating": "yes",
+        "phone": "+1 571-308-5353",
+        "ref": "1015885",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/1015885/reston-station-1908-reston-metro-plaza-reston-va-201905237-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3388758,
+          38.948754
+        ]
+      },
+      "id": "node/6502229144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8051610260",
+        "addr:city": "Reston",
+        "addr:housenumber": "11990",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "fast_food",
+        "cuisine": "hawaiian",
+        "drive_through": "no",
+        "name": "PokeHub",
+        "opening_hours": "Mo-Su 11:30-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3607769,
+          38.9588434
+        ]
+      },
+      "id": "node/8051610260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8051660686",
+        "addr:city": "Reston",
+        "addr:housenumber": "11964",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "restaurant",
+        "brand": "JINYA Ramen Bar",
+        "brand:wikidata": "Q16997755",
+        "cuisine": "ramen",
+        "name": "JINYA Ramen Bar",
+        "phone": "+1 571-926-9282",
+        "short_name": "JINYA",
+        "website": "https://jinya-ramenbar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3600198,
+          38.958843
+        ]
+      },
+      "id": "node/8051660686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8544414588",
+        "addr:street": "Nature Trail",
+        "amenity": "public_bookcase",
+        "brand": "Little Free Library",
+        "brand:wikidata": "Q6650101",
+        "name": "Little Free Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3406286,
+          38.92617
+        ]
+      },
+      "id": "node/8544414588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8544414589",
+        "amenity": "public_bookcase",
+        "brand": "Little Free Library",
+        "brand:wikidata": "Q6650101",
+        "name": "Little Free Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3429555,
+          38.9356608
+        ]
+      },
+      "id": "node/8544414589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8632180273",
+        "addr:city": "Herndon",
+        "addr:housenumber": "2801",
+        "addr:postcode": "20171",
+        "addr:state": "VA",
+        "addr:street": "Fox Mill Road",
+        "leisure": "park",
+        "name": "Fred Crabtree Park",
+        "operator": "Fairfax County",
+        "website": "fairfaxcounty.gov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3599908,
+          38.9131256
+        ]
+      },
+      "id": "node/8632180273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8864525756",
+        "addr:city": "Reston",
+        "addr:housenumber": "11956",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "phone": "+1 703-796-0128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.359288,
+          38.9588472
+        ]
+      },
+      "id": "node/8864525756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8900009240",
+        "addr:city": "Reston",
+        "addr:housenumber": "1466",
+        "addr:postcode": "20194",
+        "addr:state": "VA",
+        "addr:street": "North Point Village Center",
+        "alt_name": "Finn Thai Reston",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Finn Thai",
+        "opening_hours": "Su-Th 11:00-21:30; Fr-Sa 11:00-22:30",
+        "phone": "+1 571-313-0602",
+        "website": "https://www.finnthai.com/reston"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3503431,
+          38.9788351
+        ]
+      },
+      "id": "node/8900009240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8922456063",
+        "addr:city": "Louth",
+        "addr:country": "GB",
+        "addr:postcode": "LN11 8JQ",
+        "addr:street": "Main Road",
+        "addr:suburb": "South Reston",
+        "addr:village": "South Reston",
+        "amenity": "pub",
+        "email": "info@waggonandhorsesreston.co.uk",
+        "fhrs:authority": "East Lindsey",
+        "fhrs:id": "156353",
+        "fhrs:local_authority_id": "EHFDI/02891/08",
+        "name": "Waggon And Horses",
+        "nohousenumber": "yes",
+        "outdoor_seating": "yes",
+        "phone": "+44 1507 450 364",
+        "website": "https://waggonandhorsesreston.co.uk/our-restaurant/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1142487,
+          53.3227311
+        ]
+      },
+      "id": "node/8922456063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8923237671",
+        "addr:city": "Reston",
+        "addr:housenumber": "2303",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Soapstone Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Fr 10:00-00:00; Sa-Su 00:00-01:00,10:00-00:00",
+        "phone": "+1 703-860-4900",
+        "ref": "4394",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/virginia/reston/2303-soapstone-dr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3460478,
+          38.9307493
+        ]
+      },
+      "id": "node/8923237671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10253396826",
+        "amenity": "public_bookcase",
+        "check_date": "2025-01-19",
+        "public_bookcase:type": "reading_box"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3512937,
+          38.9554528
+        ]
+      },
+      "id": "node/10253396826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10598772445",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Matsutake Sushi and Sake Bar",
+        "phone": "+1 703-880-4880"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.349267,
+          38.9782403
+        ]
+      },
+      "id": "node/10598772445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10774379611",
+        "amenity": "restaurant",
+        "check_date": "2025-10-19",
+        "cuisine": "mexican",
+        "name": "Taco Zocalo",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "website": "https://zocalotaco.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3338199,
+          38.9491364
+        ]
+      },
+      "id": "node/10774379611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11137240205",
+        "addr:housenumber": "10805",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Parkridge Boulevard",
+        "addr:unit": "100",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "atm": "yes",
+        "check_date": "2023-11-09",
+        "cuisine": "salad;coffee_shop;sandwich",
+        "name": "Uptown Cafe",
+        "opening_hours": "Mo-Fr 07:00-15:00; Sa-Su off",
+        "outdoor_seating": "yes",
+        "payment:american_express": "no",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 703-391-8999",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3157589,
+          38.944779
+        ]
+      },
+      "id": "node/11137240205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11141083205",
+        "addr:floor": "P1",
+        "addr:housenumber": "1902",
+        "addr:state": "VA",
+        "addr:street": "Reston Station Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "check_date": "2023-08-31",
+        "contact:facebook": "https://www.facebook.com/DaviosRestonStation",
+        "contact:instagram": "https://www.instagram.com/DaviosRestaurant",
+        "contact:twitter": "https://twitter.com/DaviosRS",
+        "cuisine": "italian;steak_house",
+        "diet:vegetarian": "yes",
+        "email": "daviosrestonstation@davios.com",
+        "name": "Davio's Northern Italian Steakhouse",
+        "opening_hours": "Mo-Fr 11:30-15:00,17:00-22:00; Sa 11:30-23:00; Su 11:00-22:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 888-995-4810",
+        "reservation": "yes",
+        "website": "https://davios.com/reston"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3385437,
+          38.9485741
+        ]
+      },
+      "id": "node/11141083205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11141091105",
+        "addr:floor": "P1",
+        "addr:housenumber": "1908",
+        "addr:postcode": "20190",
+        "addr:street": "Reston Metro Plaza",
+        "amenity": "restaurant",
+        "check_date": "2025-07-28",
+        "check_date:opening_hours": "2025-07-28",
+        "contact:instagram": "DAMNGOODBURGERS",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "name": "Big Buns",
+        "opening_hours": "Su-Th 11:00-20:05; Fr,Sa 11:00-21:05",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://www.eatbigbuns.com/reston",
+        "website:menu": "https://www.eatbigbuns.com/virginia-locations-menu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3388539,
+          38.9488008
+        ]
+      },
+      "id": "node/11141091105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11225871127",
+        "addr:housenumber": "11830",
+        "addr:street": "Sunrise Valley Drive",
+        "amenity": "fast_food",
+        "check_date": "2023-09-28",
+        "cuisine": "kebab",
+        "name": "Reston Kabob",
+        "opening_hours": "Mo-Fr 11:00-21:00; Sa 12:00-21:00; Su 12:00-19:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 703-445-3140",
+        "website": "https://www.reston-kabob.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3558561,
+          38.9486874
+        ]
+      },
+      "id": "node/11225871127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11230111860",
+        "addr:city": "Reston",
+        "addr:housenumber": "11898",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "North Italia",
+        "phone": "+1-571-325-0823"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3566882,
+          38.9590347
+        ]
+      },
+      "id": "node/11230111860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11230940190",
+        "addr:city": "Reston",
+        "addr:housenumber": "11853",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "The Capital Burger",
+        "phone": "+1-703-464-5612"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3558385,
+          38.9586094
+        ]
+      },
+      "id": "node/11230940190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11230940205",
+        "addr:city": "Reston",
+        "addr:housenumber": "11840",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Freedom Drive",
+        "brand": "F45 Training",
+        "brand:wikidata": "Q64390973",
+        "leisure": "fitness_centre",
+        "name": "F45 Training",
+        "phone": "+1-703-956-7546",
+        "short_name": "F45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3553638,
+          38.9595818
+        ]
+      },
+      "id": "node/11230940205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11231033244",
+        "addr:city": "Reston",
+        "addr:housenumber": "11940",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "cinema",
+        "name": "LOOK Cinemas",
+        "phone": "+1-571-464-6535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3581209,
+          38.9588368
+        ]
+      },
+      "id": "node/11231033244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11231124972",
+        "addr:city": "Reston",
+        "addr:housenumber": "1824",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Library Street",
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "cuisine": "salad",
+        "drive_through": "no",
+        "name": "Sweetgreen",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-571-203-0082",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3587438,
+          38.9581596
+        ]
+      },
+      "id": "node/11231124972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11231124983",
+        "addr:city": "Reston",
+        "addr:housenumber": "1820",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Discovery Street",
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "cuisine": "açaí",
+        "drive_through": "no",
+        "name": "Playa Bowls",
+        "phone": "+1-571-926-9668",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.357127,
+          38.9579949
+        ]
+      },
+      "id": "node/11231124983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11231124997",
+        "addr:city": "Reston",
+        "addr:housenumber": "11901",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Democracy Drive",
+        "amenity": "restaurant",
+        "brand": "True Food Kitchen",
+        "brand:wikidata": "Q113488682",
+        "cuisine": "american",
+        "name": "True Food Kitchen",
+        "phone": "+1-571-926-8251",
+        "website": "https://www.truefoodkitchen.com/reston"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3571392,
+          38.9577693
+        ]
+      },
+      "id": "node/11231124997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11231221852",
+        "addr:city": "Reston",
+        "addr:housenumber": "1811",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Library Street",
+        "amenity": "pub",
+        "name": "Maker's Union",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-00:00; Sa 10:00-00:00; Su 10:00-22:00",
+        "phone": "+1-703-313-0272",
+        "website": "https://www.makersunionpub.com/reston-va"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3585096,
+          38.9583071
+        ]
+      },
+      "id": "node/11231221852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11231341301",
+        "addr:city": "Reston",
+        "addr:housenumber": "1871",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Explorer Street",
+        "amenity": "restaurant",
+        "cuisine": "ceviche",
+        "name": "Pisco y Nazca",
+        "phone": "+1-703-407-4010",
+        "website": "https://piscoynazca.com/reston-va/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3602788,
+          38.9585873
+        ]
+      },
+      "id": "node/11231341301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11262964642",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3490433,
+          38.9661824
+        ]
+      },
+      "id": "node/11262964642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11285069669",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3738704,
+          38.9316847
+        ]
+      },
+      "id": "node/11285069669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11642862861",
+        "amenity": "public_bookcase",
+        "brand": "Little Free Library",
+        "brand:wikidata": "Q6650101",
+        "capacity": "25",
+        "lit": "no",
+        "name": "Little Free Library",
+        "operator": "Reston Association",
+        "public_bookcase:type": "reading_box",
+        "survey:date": "2024-02-19",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3593703,
+          38.9361682
+        ]
+      },
+      "id": "node/11642862861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11760343504",
+        "leisure": "sports_centre",
+        "name": "Terry L. Smith Aquatics Center",
+        "sport": "swimming",
+        "survey:date": "2024-03-25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3603648,
+          38.9366934
+        ]
+      },
+      "id": "node/11760343504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11909719977",
+        "addr:housenumber": "1805",
+        "addr:postcode": "20190",
+        "addr:street": "Discovery Street",
+        "leisure": "sports_centre",
+        "name": "CitySwing",
+        "opening_hours": "Mo-Th 11:00-20:00; Fr-Sa 10:00-22:00; Su 10:00-19:00",
+        "phone": "+1-703-253-6535",
+        "sport": "golf",
+        "website": "https://www.cityswing.com/reston"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3566666,
+          38.9585188
+        ]
+      },
+      "id": "node/11909719977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12050368552",
+        "addr:city": "Reston",
+        "addr:housenumber": "11642",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Plaza America Drive",
+        "amenity": "fast_food",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-Th 10:30-22:00; Fr-Sa 10:30-23:00; Su 10:30-22:00",
+        "phone": "+1 703-674-3599",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/va/reston/11642-plaza-america-dr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3484691,
+          38.9514802
+        ]
+      },
+      "id": "node/12050368552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12090624476",
+        "addr:city": "Reston",
+        "addr:housenumber": "11910",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "cafe",
+        "brand": "Tatte Bakery & Cafe",
+        "brand:wikidata": "Q116671479",
+        "cuisine": "bakery;coffee_shop",
+        "name": "Tatte Bakery & Cafe",
+        "opening_hours": "Mo-Sa 07:00-20:00; Su 8:00-19:00",
+        "operator": "Tatte Bakery & Cafe",
+        "phone": "+1-571-313-1553",
+        "shop": "bakery",
+        "takeaway": "yes",
+        "website": "https://tattebakery.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3573351,
+          38.9588361
+        ]
+      },
+      "id": "node/12090624476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12090667187",
+        "addr:city": "Reston",
+        "addr:housenumber": "11905",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "restaurant",
+        "cuisine": "regional;pizza;pasta;charcuterie",
+        "name": "Sixty Vines",
+        "phone": "+1-571-325-0421",
+        "website": "https://www.sixtyvines.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3571828,
+          38.9585645
+        ]
+      },
+      "id": "node/12090667187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12162674456",
+        "amenity": "restaurant",
+        "brand": "Bonchon Chicken",
+        "brand:wikidata": "Q4941248",
+        "cuisine": "chicken;korean;sushi",
+        "name": "Bonchon Chicken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3487899,
+          38.951559
+        ]
+      },
+      "id": "node/12162674456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12162674457",
+        "amenity": "restaurant",
+        "cuisine": "kebab",
+        "name": "Grill Kabob"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3492552,
+          38.9527907
+        ]
+      },
+      "id": "node/12162674457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12293594838",
+        "addr:city": "Reston",
+        "addr:housenumber": "11410",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Reston Station Boulevard",
+        "brand": "Orangetheory Fitness",
+        "brand:wikidata": "Q25005163",
+        "leisure": "fitness_centre",
+        "name": "Orangetheory Fitness",
+        "phone": "+1 703-822-5272",
+        "ref": "2370"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3397273,
+          38.9500198
+        ]
+      },
+      "id": "node/12293594838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12496791362",
+        "name": "Pupatella Car",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3350459,
+          38.9506245
+        ]
+      },
+      "id": "node/12496791362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12805277608",
+        "addr:city": "Reston",
+        "addr:housenumber": "2235",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Soapstone Drive",
+        "amenity": "cafe",
+        "contact:facebook": "DeClieuCoffee",
+        "contact:instagram": "declieucoffee",
+        "cuisine": "coffee_shop",
+        "email": "coffeedeclieu@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "De Clieu Reston",
+        "name": "De Clieu Coffee and Sandwich",
+        "outdoor_seating": "yes",
+        "phone": "(703) 951-0088",
+        "self_service": "no",
+        "toilets": "yes",
+        "website": "https://www.coffeedeclieu.com/",
+        "website:menu": "https://www.coffeedeclieu.com/menu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3454217,
+          38.9304993
+        ]
+      },
+      "id": "node/12805277608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13018134557",
+        "amenity": "cafe",
+        "name": "Kook Dogg Cafe",
+        "opening_hours": "Su-Th 11:00-09:00, Fr,Sa 11:00-10:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.364216,
+          38.95456
+        ]
+      },
+      "id": "node/13018134557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13032346331",
+        "leisure": "fitness_centre",
+        "name": "VIDA",
+        "opening_hours": "Mo-Fr 05:00-22:00; Sa,Su 07:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3371484,
+          38.9499405
+        ]
+      },
+      "id": "node/13032346331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13032502641",
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3380402,
+          38.9485817
+        ]
+      },
+      "id": "node/13032502641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13032604724",
+        "amenity": "restaurant",
+        "cuisine": "salad",
+        "name": "Sweet Leaf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3388348,
+          38.9488441
+        ]
+      },
+      "id": "node/13032604724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13032604725",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "matchbox"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.337819,
+          38.9482859
+        ]
+      },
+      "id": "node/13032604725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13046677095",
+        "artwork_type": "statue",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3374698,
+          38.9486873
+        ]
+      },
+      "id": "node/13046677095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13046751035",
+        "artwork_type": "statue",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3375421,
+          38.9487089
+        ]
+      },
+      "id": "node/13046751035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13068309635",
+        "addr:city": "Reston",
+        "addr:housenumber": "11340",
+        "addr:postcode": "20190",
+        "addr:state": "Virginia",
+        "addr:street": "Reston Station Blvd",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "The Simon at Reston Station",
+        "opening_hours": "Mo-Fr 06:00-11:00, 11:30-16:30, 17:00-22:00, Sa-Su 07:00-11:00, 11:30-16:30, 17:00-22:00",
+        "phone": "+ 1 571 720 1085",
+        "website": "https://www.thesimonrestonstation.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3374827,
+          38.9494481
+        ]
+      },
+      "id": "node/13068309635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13124865690",
+        "addr:city": "Reston",
+        "addr:housenumber": "11940",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Democracy Drive",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "Shake Shack",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-571-640-8702",
+        "takeaway": "yes",
+        "website": "https://shakeshack.com/location/reston-va"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.35916,
+          38.9581247
+        ]
+      },
+      "id": "node/13124865690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13124865692",
+        "addr:city": "Reston",
+        "addr:housenumber": "11990",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "addr:unit": "106",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House",
+        "opening_hours": "Su-Th 16:00-21:30; Fr 16:00-22:30; Sa 17:00-22:30",
+        "phone": "+1-571-749-9537",
+        "website": "https://www.ruthschris.com/locations/va/reston/reston/7377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.361487,
+          38.9588487
+        ]
+      },
+      "id": "node/13124865692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13124865699",
+        "addr:city": "Reston",
+        "addr:housenumber": "11990",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "addr:unit": "D",
+        "amenity": "ice_cream",
+        "name": "Ice Cream Jubilee",
+        "phone": "+1-571-583-5434",
+        "website": "https://icecreamjubilee.com/reston/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3606052,
+          38.958871
+        ]
+      },
+      "id": "node/13124865699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13155961597",
+        "addr:city": "Reston",
+        "addr:housenumber": "11950",
+        "addr:state": "VA",
+        "addr:street": "Democracy Drive",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "corsican",
+        "description": "Wine bar with Corsican food",
+        "name": "Corsica",
+        "opening_hours": "Su-Th 16:00-24:00; Fr-Sa 14:00-01:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.corsicawinebar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3595011,
+          38.9580435
+        ]
+      },
+      "id": "node/13155961597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13242481391",
+        "addr:city": "Reston",
+        "addr:housenumber": "11207",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Reston Station Boulevard",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "check_date": "2025-10-19",
+        "cuisine": "asian",
+        "level": "0",
+        "name": "Lantern House Kitchen & Bar",
+        "outdoor_seating": "no",
+        "website": "https://lanternkitchenbar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3333528,
+          38.9473639
+        ]
+      },
+      "id": "node/13242481391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13246669713",
+        "addr:city": "Reston",
+        "addr:housenumber": "2041",
+        "addr:postcode": "20191",
+        "addr:state": "VA",
+        "addr:street": "Fulton Place",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3594026,
+          38.9486638
+        ]
+      },
+      "id": "node/13246669713"
+    }
+  ]
+}

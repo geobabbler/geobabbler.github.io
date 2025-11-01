@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FOSS4GNA — Reston POIs (MapLibre GL)</title>
+  <link href="https://unpkg.com/maplibre-gl@3.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <style>
+    html, body { height: 100%; margin: 0; }
+    #map { position: absolute; inset: 0; }
+    .legend {
+      position: absolute; bottom: 16px; left: 16px; background: rgba(255,255,255,0.95);
+      padding: 10px 12px; border-radius: 12px; font: 13px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+    }
+    .legend h4 { margin: 0 0 6px; font-size: 14px; }
+    .legend .item { display: grid; grid-template-columns: 14px auto; gap: 8px; align-items: center; margin: 4px 0; }
+    .swatch { width: 14px; height: 14px; border-radius: 50%; border: 1px solid #00000020; }
+  </style>
+</head>
+<body>
+  <div id="map" aria-label="Map of Reston points of interest"></div>
+  <div class="legend" aria-hidden="true">
+    <h4>POI categories</h4>
+    <div class="item"><span class="swatch" style="background:#1f77b4"></span> Dining & Cafés</div>
+    <div class="item"><span class="swatch" style="background:#2ca02c"></span> Bars & Nightlife</div>
+    <div class="item"><span class="swatch" style="background:#ff7f0e"></span> Recreation & Leisure</div>
+    <div class="item"><span class="swatch" style="background:#9467bd"></span> Museums & Culture</div>
+    <div class="item"><span class="swatch" style="background:#8c564b"></span> Libraries & Community</div>
+    <div class="item"><span class="swatch" style="background:#7f7f7f"></span> Other</div>
+  </div>
+
+  <!-- UMD builds: define globals to avoid module/CORS issues -->
+  <script src="https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
+  <script>
+    // --- CONFIG ---
+    const GEOJSON_URL = 'reston_poi.geojson'; // use your uploaded export name
+
+    // Helper to derive a primary category from OSM tags
+    function deriveCategory(props){
+      const a = props['amenity'];
+      const l = props['leisure'];
+      const t = props['tourism'];
+      const s = props['shop'];
+      // Dining & Cafés
+      if (a && ['restaurant','cafe','fast_food','food_court','ice_cream'].includes(a)) return 'dining';
+      // Bars & Nightlife
+      if (a && ['bar','pub','biergarten','nightclub'].includes(a)) return 'nightlife';
+      // Recreation & Leisure
+      if (l && ['park','dog_park','playground','sports_centre','fitness_centre','swimming_pool','golf_course','stadium','bowling_alley','amusement_arcade'].includes(l)) return 'recreation';
+      // Museums & Culture
+      if ((t && ['museum','gallery','artwork','attraction','viewpoint','theme_park'].includes(t)) || (a && ['theatre','cinema','arts_centre'].includes(a))) return 'culture';
+      // Libraries & Community
+      if (a && ['library','community_centre'].includes(a)) return 'community';
+      // Interesting retail (optional bucket)
+      if (s && ['bakery','chocolate','books','bicycle','outdoor'].includes(s)) return 'retail';
+      return 'other';
+    }
+
+    // Initialize only after libraries are present
+    (function init(){
+      if (typeof maplibregl === 'undefined') {
+        alert('MapLibre failed to load. Serve this file via http:// and check your network.');
+        return;
+      }
+
+      const map = new maplibregl.Map({
+        container: 'map',
+        style: {
+          version: 8,
+          sources: {
+            osm: {
+              type: 'raster',
+              tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+              tileSize: 256,
+              attribution: '\u00A9 OpenStreetMap contributors'
+            }
+          },
+          layers: [ { id: 'osm-tiles', type: 'raster', source: 'osm' } ]
+        },
+        center: [-77.341, 38.953],
+        zoom: 12
+      });
+
+      fetch(GEOJSON_URL)
+        .then(r => {
+          if (!r.ok) throw new Error('Could not load ' + GEOJSON_URL + '. Serve via a local web server.');
+          return r.json();
+        })
+        .then(geojson => {
+          // Augment features with a derived category for styling
+          geojson.features.forEach(f => {
+            f.properties = f.properties || {};
+            f.properties.__category = deriveCategory(f.properties);
+            f.properties.__label = f.properties.name || f.properties.brand || 'Unnamed';
+            f.properties.__subtitle = (f.properties.amenity || f.properties.leisure || f.properties.tourism || f.properties.shop || 'POI');
+          });
+
+          map.on('load', () => {
+            map.addSource('pois', { type: 'geojson', data: geojson });
+
+            // Symbolize by derived category
+            map.addLayer({
+              id: 'poi-points',
+              type: 'circle',
+              source: 'pois',
+              paint: {
+                'circle-radius': 7,
+                'circle-stroke-color': '#ffffff',
+                'circle-stroke-width': 1.25,
+                'circle-opacity': 0.9,
+                'circle-color': [
+                  'match', ['get', '__category'],
+                  'dining', '#1f77b4',
+                  'nightlife', '#2ca02c',
+                  'recreation', '#ff7f0e',
+                  'culture', '#9467bd',
+                  'community', '#8c564b',
+                  'retail', '#17becf',
+                  /* other */ '#7f7f7f'
+                ]
+              }
+            });
+
+            // Interactive popup
+            const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: true });
+            map.on('mouseenter', 'poi-points', () => { map.getCanvas().style.cursor = 'pointer'; });
+            map.on('mouseleave', 'poi-points', () => { map.getCanvas().style.cursor = ''; });
+            map.on('click', 'poi-points', (e) => {
+              const f = e.features && e.features[0];
+              if (!f) return;
+              const p = f.properties || {};
+              const name = p.__label;
+              const sub = p.__subtitle;
+              const website = p.website || p['contact:website'];
+              const phone = p.phone || p['contact:phone'];
+              const addr = [p['addr:housenumber'], p['addr:street'], p['addr:city']].filter(Boolean).join(' ');
+              const lon = e.lngLat.lng.toFixed(6);
+              const lat = e.lngLat.lat.toFixed(6);
+              const osmId = p['@id'] || p.id;
+              const osmLink = osmId ? `https://www.openstreetmap.org/${String(osmId).replace(':','/')}` : `https://www.openstreetmap.org/?mlat=${lat}&mlon=${lon}`;
+
+              const html = `
+                <div style="font: 13px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; min-width: 220px;">
+                  <div style="font-weight:600; margin-bottom:2px;">${name}</div>
+                  <div style="color:#555; margin-bottom:6px;">${sub}</div>
+                  ${addr ? `<div>${addr}</div>` : ''}
+                  ${phone ? `<div>📞 ${phone}</div>` : ''}
+                  <div style="margin-top:6px; display:flex; gap:8px; flex-wrap:wrap;">
+                    <a href="${osmLink}" target="_blank" rel="noopener">View on OSM</a>
+                    ${website ? `<a href="${website}" target="_blank" rel="noopener">Website</a>` : ''}
+                  </div>
+                </div>`;
+
+              popup.setLngLat(e.lngLat).setHTML(html).addTo(map);
+            });
+
+            // Fit bounds to all features
+            const bbox = turf.bbox(geojson);
+            map.fitBounds([[bbox[0], bbox[1]], [bbox[2], bbox[3]]], { padding: 40 });
+          });
+        })
+        .catch(err => {
+          console.error(err);
+          alert('There was a problem loading the data. Check the console for details.');
+        });
+    })();
+  </script>
+</body>
+</html>
