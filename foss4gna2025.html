@@ -4,10 +4,28 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>FOSS4GNA — Reston POIs (MapLibre GL)</title>
-  <link href="https://unpkg.com/maplibre-gl@3.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <!-- MapLibre GL CSS (required for popups/controls) -->
+  <link href="https://unpkg.com/maplibre-gl@3.7.1/dist/maplibre-gl.css" rel="stylesheet" onerror="this.remove();"/>
+  <!-- Fallback critical CSS in case the CDN CSS fails to load -->
   <style>
-    html, body { height: 100%; margin: 0; }
-    #map { position: absolute; inset: 0; }
+    /* Critical fallback for popups/controls if external CSS fails */
+    .maplibregl-canvas, .maplibregl-canvas-container { position:absolute; top:0; left:0; right:0; bottom:0; }
+    .maplibregl-ctrl { position:absolute; z-index:2; }
+    .maplibregl-popup { position:absolute !important; transform:translate(-50%, -100%); pointer-events:auto; z-index:9999; }
+    .maplibregl-popup-anchor-bottom { transform:translate(-50%, -10px); }
+    .maplibregl-popup-content { background:#fff; border-radius:8px; box-shadow:0 8px 24px rgba(0,0,0,.2); padding:10px 12px; }
+    .maplibregl-popup-tip { width:0; height:0; border-left:8px solid transparent; border-right:8px solid transparent; border-top:8px solid #fff; position:absolute; left:50%; bottom:-8px; transform:translateX(-50%); }
+  </style>
+  <style>
+    /* Ensure the map fills the viewport and nothing pushes it down */
+    html, body { height: 100%; width: 100%; margin: 0; padding: 0; }
+    #map { position: fixed; inset: 0; }
+
+    /* Popup safety: make sure it floats over the map */
+    .maplibregl-popup { z-index: 9999; }
+    .maplibregl-popup-content { font: 13px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+
+    /* Legend (optional) */
     .legend {
       position: absolute; bottom: 16px; left: 16px; background: rgba(255,255,255,0.95);
       padding: 10px 12px; border-radius: 12px; font: 13px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
@@ -27,38 +45,31 @@
     <div class="item"><span class="swatch" style="background:#ff7f0e"></span> Recreation & Leisure</div>
     <div class="item"><span class="swatch" style="background:#9467bd"></span> Museums & Culture</div>
     <div class="item"><span class="swatch" style="background:#8c564b"></span> Libraries & Community</div>
+    <div class="item"><span class="swatch" style="background:#17becf"></span> Retail</div>
     <div class="item"><span class="swatch" style="background:#7f7f7f"></span> Other</div>
   </div>
 
-  <!-- UMD builds: define globals to avoid module/CORS issues -->
+  <!-- UMD builds: define globals -->
   <script src="https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.js"></script>
   <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
   <script>
-    // --- CONFIG ---
-    const GEOJSON_URL = 'reston_poi.geojson'; // use your uploaded export name
+    const GEOJSON_URL = 'reston_poi.geojson';
 
-    // Helper to derive a primary category from OSM tags
+    // Category derivation as before
     function deriveCategory(props){
       const a = props['amenity'];
       const l = props['leisure'];
       const t = props['tourism'];
       const s = props['shop'];
-      // Dining & Cafés
       if (a && ['restaurant','cafe','fast_food','food_court','ice_cream'].includes(a)) return 'dining';
-      // Bars & Nightlife
       if (a && ['bar','pub','biergarten','nightclub'].includes(a)) return 'nightlife';
-      // Recreation & Leisure
       if (l && ['park','dog_park','playground','sports_centre','fitness_centre','swimming_pool','golf_course','stadium','bowling_alley','amusement_arcade'].includes(l)) return 'recreation';
-      // Museums & Culture
       if ((t && ['museum','gallery','artwork','attraction','viewpoint','theme_park'].includes(t)) || (a && ['theatre','cinema','arts_centre'].includes(a))) return 'culture';
-      // Libraries & Community
       if (a && ['library','community_centre'].includes(a)) return 'community';
-      // Interesting retail (optional bucket)
       if (s && ['bakery','chocolate','books','bicycle','outdoor'].includes(s)) return 'retail';
       return 'other';
     }
 
-    // Initialize only after libraries are present
     (function init(){
       if (typeof maplibregl === 'undefined') {
         alert('MapLibre failed to load. Serve this file via http:// and check your network.');
@@ -83,13 +94,11 @@
         zoom: 12
       });
 
+      map.addControl(new maplibregl.NavigationControl(), 'top-left');
+
       fetch(GEOJSON_URL)
-        .then(r => {
-          if (!r.ok) throw new Error('Could not load ' + GEOJSON_URL + '. Serve via a local web server.');
-          return r.json();
-        })
+        .then(r => { if (!r.ok) throw new Error('Could not load '+GEOJSON_URL); return r.json(); })
         .then(geojson => {
-          // Augment features with a derived category for styling
           geojson.features.forEach(f => {
             f.properties = f.properties || {};
             f.properties.__category = deriveCategory(f.properties);
@@ -99,12 +108,8 @@
 
           map.on('load', () => {
             map.addSource('pois', { type: 'geojson', data: geojson });
-
-            // Symbolize by derived category
             map.addLayer({
-              id: 'poi-points',
-              type: 'circle',
-              source: 'pois',
+              id: 'poi-points', type: 'circle', source: 'pois',
               paint: {
                 'circle-radius': 7,
                 'circle-stroke-color': '#ffffff',
@@ -123,8 +128,8 @@
               }
             });
 
-            // Interactive popup
-            const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: true });
+            // Popup correctly anchored to click position
+            const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: true, anchor: 'bottom', className: 'poi-popup' });
             map.on('mouseenter', 'poi-points', () => { map.getCanvas().style.cursor = 'pointer'; });
             map.on('mouseleave', 'poi-points', () => { map.getCanvas().style.cursor = ''; });
             map.on('click', 'poi-points', (e) => {
@@ -142,7 +147,7 @@
               const osmLink = osmId ? `https://www.openstreetmap.org/${String(osmId).replace(':','/')}` : `https://www.openstreetmap.org/?mlat=${lat}&mlon=${lon}`;
 
               const html = `
-                <div style="font: 13px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; min-width: 220px;">
+                <div style="min-width:220px;">
                   <div style="font-weight:600; margin-bottom:2px;">${name}</div>
                   <div style="color:#555; margin-bottom:6px;">${sub}</div>
                   ${addr ? `<div>${addr}</div>` : ''}
@@ -156,15 +161,11 @@
               popup.setLngLat(e.lngLat).setHTML(html).addTo(map);
             });
 
-            // Fit bounds to all features
             const bbox = turf.bbox(geojson);
             map.fitBounds([[bbox[0], bbox[1]], [bbox[2], bbox[3]]], { padding: 40 });
           });
         })
-        .catch(err => {
-          console.error(err);
-          alert('There was a problem loading the data. Check the console for details.');
-        });
+        .catch(err => { console.error(err); alert('There was a problem loading the data.'); });
     })();
   </script>
 </body>
